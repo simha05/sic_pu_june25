@@ -18,3 +18,4 @@ elif average_score >= 96 and average_score <= 100:
     print(average_score, 'excellent')
 else:
     print('invalid input')
+
