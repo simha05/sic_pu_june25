@@ -1,0 +1,7 @@
+original_string = input("Enter the first word: ")
+roatated_word = input("Enter the second word: ")
+temp_str = roatated_word + roatated_word
+if original_string in temp_str:
+    print(1)
+else:
+    print(-1)

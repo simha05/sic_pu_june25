@@ -1,0 +1,7 @@
+N = int(input("Enter the Number of Requests: "))
+Server1 = []
+for i in range(N):
+    request = int(input("Enter the memory allocation or deallocation: "))
+    if i % 2 == 0:
+        Server1.append(request)
+print('Total number of units of memory allocated or dellocated by server1', sum(Server1))
