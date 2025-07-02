@@ -1,0 +1,24 @@
+# binary search using while loop
+
+n = int(input("Enter the number of elements in the array: "))
+Array = list(map(int, input("Enter the array elements (sorted): ").split()))
+
+def Binary_search(Array, target):
+    low = 0
+    high = len(Array) - 1
+
+    while low <= high:
+        mid = (low + high) // 2
+        if Array[mid] == target:
+            return mid
+        elif Array[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+target = int(input("Enter the target value to search: "))
+result = Binary_search(Array, target)
+if result != -1:
+    print(f"Target found at index {result}")
+else:
+    print("Target not found")
