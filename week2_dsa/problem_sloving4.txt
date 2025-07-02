@@ -1,0 +1,34 @@
+#BOYS and GIRLS
+
+def check_arrangement(boys, girls):
+        arrangment = True
+        for i in range(1, n):
+                if girls[i] >= boys[i-1] and boys[i] >= girls[i-1]:
+                        continue # go to the next iteration
+                else:
+                        arrangment = False
+                        break # Once we know such arrangment is not possible, quit
+        if arrangment and (girls[0] >= boys[0] and girls[-1] >= boys[-1]) or (boys[0] >= girls[0] and boys[-1] >= girls[-1]):
+                return "yes"
+
+output = []        
+t = int(input('Enter the number of test cases'))
+for i in range(t):
+    n = int(input('Enter the number of boys and girls'))
+    boys = []
+    girls = []
+    for i in range (n):
+        boys_height = int(input('Enter the boys height'))
+        boys.append(boys_height)
+    for i in range (n):
+        girls_height = int(input('Enter the girls height'))
+        girls.append(girls_height)
+    
+    boys.sort()
+    girls.sort()
+    print(boys)
+    print(girls)
+    result = check_arrangement(boys,girls)
+    output.append(result)
+print(output)
+        

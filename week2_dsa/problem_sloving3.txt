@@ -1,0 +1,17 @@
+# LIST PARTITIONING
+    
+n, x, y = input('Enter the values for n, x, y :').split()
+n = int(n)
+x = int(n)
+y = int(y)
+count=0
+Array = []
+print('Enter the array elements')
+for i in range(n):
+    element = int(input())
+    Array.append(element)
+Array.sort()
+print(Array)
+count = Array[y] - Array[y-1]-1
+print(count)
+      
