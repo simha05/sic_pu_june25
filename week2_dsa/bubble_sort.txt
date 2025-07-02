@@ -1,0 +1,10 @@
+# bubble sort
+
+n = int(input("Enter the number of array elememnts: "))
+array = list(map(int,input("Enter the array elements: ").split()))
+for i in range(0,n-1):
+    for j in range(0,n-1-i):
+        if array[j] > array[j+1]:
+            array[j],array[j+1] = array[j+1], array[j]
+print(array)
+        

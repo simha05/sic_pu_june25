@@ -19,6 +19,6 @@ def Binary_search(Array, target):
 target = int(input("Enter the target value to search: "))
 result = Binary_search(Array, target)
 if result != -1:
-    print(f"Target found at index {result}")
+    print("Target found at index", result)
 else:
     print("Target not found")

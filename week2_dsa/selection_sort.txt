@@ -1,0 +1,17 @@
+# selection sort
+
+n = int(input("Enter the number of array elements: "))
+array = list(map(int, input("Enter the array elements: ").split()))
+for i in range(1, n):
+    element = array[i - 1]
+    position = i - 1
+    for j in range(i, n):
+        if array[j] < element:
+            element = array[j]
+            position = j
+    array[position], array[i - 1] = array[i - 1], array[position]
+print(array)
+
+
+
+
