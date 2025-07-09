@@ -1,5 +1,5 @@
-CREATE DATABASE udithsimha_db;
-USE udithsimha_db;
+CREATE DATABASE simhaudith_db;
+USE simhaudith_db;
 CREATE TABLE employees (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(30) NOT NULL,

@@ -1,50 +1,50 @@
 import pymysql
 
-def connect_db():
+def connectDB():
     connection = None
     try:
         connection = pymysql.connect(
-            host='localhost',
+            host="localhost",
             user="root",
             password="udithsimha05",
-            database='udithsimha_db',
+            database="simhaudith_db",
             port=3306,
-            charset="utf8"
+            charset="utf8",
+            autocommit=True  # optional, so you don't have to call commit explicitly
         )
         print('Database Connected')
-    except Exception as e:
+    except pymysql.MySQLError as e:
         print(f'Database Connection Failed: {e}')
     return connection
 
 def disconnect_db(connection):
-    try:
-        if connection:
+    if connection:
+        try:
             connection.close()
             print('DB disconnected')
-        else:
-            print('No connection to disconnect')
-    except Exception as e:
-        print(f'DB disconnection failed: {e}')
+        except pymysql.MySQLError as e:
+            print(f'DB disconnection failed: {e}')
+    else:
+        print('No connection to close')
 
 def create_db():
-    query = 'CREATE DATABASE IF NOT EXISTS nithin_db'
-    connection = connect_db()
-    if connection is None:
-        print('Cannot create database because connection failed')
+    query = 'CREATE DATABASE IF NOT EXISTS simhaudith_db'
+    connection = connectDB()
+    if not connection:
+        print('Cannot create database without connection')
         return
     try:
-        cursor = connection.cursor()
-        cursor.execute(query)
-        print('Database created')
-        cursor.close()
-        disconnect_db(connection)
-    except Exception as e:
+        with connection.cursor() as cursor:
+            cursor.execute(query)
+            print('Database created or already exists')
+    except pymysql.MySQLError as e:
         print(f'Database creation failed: {e}')
+    finally:
         disconnect_db(connection)
 
 def create_table():
     query = '''
-    CREATE TABLE IF NOT EXISTS employees (
+    CREATE TABLE IF NOT EXISTS employees(
         id INT PRIMARY KEY AUTO_INCREMENT,
         name VARCHAR(50) NOT NULL,
         designation VARCHAR(30),
@@ -55,40 +55,38 @@ def create_table():
         technology VARCHAR(30) NOT NULL
     )
     '''
-    connection = connect_db()
-    if connection is None:
-        print('Cannot create table because connection failed')
+    connection = connectDB()
+    if not connection:
+        print('Cannot create table without connection')
         return
     try:
-        cursor = connection.cursor()
-        cursor.execute(query)
-        print('Table created')
-        cursor.close()
-        disconnect_db(connection)
-    except Exception as e:
+        with connection.cursor() as cursor:
+            cursor.execute(query)
+            print('Table created or already exists')
+    except pymysql.MySQLError as e:
         print(f'Table creation failed: {e}')
+    finally:
         disconnect_db(connection)
 
 def read_all_employees():
     query = 'SELECT * FROM employees'
-    connection = connect_db()
-    if connection is None:
-        print('Cannot retrieve employees because connection failed')
+    connection = connectDB()
+    if not connection:
+        print('Cannot read employees without connection')
         return
     try:
-        cursor = connection.cursor()
-        cursor.execute(query)
-        rows = cursor.fetchall()
-        for row in rows:
-            print(row)
-        print('All rows retrieved')
-        cursor.close()
-        disconnect_db(connection)
-    except Exception as e:
+        with connection.cursor() as cursor:
+            cursor.execute(query)
+            rows = cursor.fetchall()
+            for row in rows:
+                print(row)
+            print('All rows retrieved')
+    except pymysql.MySQLError as e:
         print(f'Rows retrieval failed: {e}')
+    finally:
         disconnect_db(connection)
 
-# Usage example
+# Example usage:
+#create_db()  # call once if needed
 create_table()
 read_all_employees()
-
