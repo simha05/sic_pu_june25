@@ -584,3 +584,12 @@ packages/modules: os (file handling), sys, math, tkinter, pickle
 -----------------------------------------------------------------------------------------
 Most Important Git Repo Link for your preparation for Placement Preparation
 https://github.com/gmaheswaranmca/au-guvi 
+--------------------------------------------------------------------------------------------
+hackthon overview:
+data shld be taken in the form of .csv or .xlsx
+one or multiple sheet data
+or data can also be in DB
+          |
+this take into .csv
+then do numpy and pandas for data analysis
+
