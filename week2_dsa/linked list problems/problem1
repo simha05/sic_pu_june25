@@ -1,0 +1,65 @@
+# Implement Queue using SLL and DLL, insert at rear delete from front
+
+class SNode:
+    def __init__(self, val):
+        self.value = val
+        self.next_node = None
+
+class SLLQueue:
+    def __init__(self):
+        self.head = None
+        self.tail = None
+    
+    def enqueue(self, data):
+        new_node = SNode(data)
+        if self.tail is None:
+            self.head = self.tail = new_node
+        else:
+            self.tail.next_node = new_node
+            self.tail = new_node
+    
+    def dequeue(self):
+        if self.head is None:
+            return None
+        result = self.head.value
+        self.head = self.head.next_node
+        if self.head is None:
+            self.tail = None
+        return result
+    
+    def is_empty(self):
+        return self.head is None
+
+class DNode:
+    def __init__(self, val):
+        self.data = val
+        self.prev = None
+        self.next = None
+
+class DLLQueue:
+    def __init__(self):
+        self.front = None
+        self.rear = None
+    
+    def enqueue(self, val):
+        new_node = DNode(val)
+        if self.rear is None:
+            self.front = self.rear = new_node
+        else:
+            self.rear.next = new_node
+            new_node.prev = self.rear
+            self.rear = new_node
+    
+    def dequeue(self):
+        if self.front is None:
+            return None
+        result = self.front.data
+        self.front = self.front.next
+        if self.front is not None:
+            self.front.prev = None
+        else:
+            self.rear = None
+        return result
+    
+    def empty(self):
+        return self.front is None

@@ -1,0 +1,16 @@
+# Reverse a SLL
+
+class ListNode:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+def reverse_sll(head):
+    prev = None
+    curr = head
+    while curr:
+        nxt = curr.next
+        curr.next = prev
+        prev = curr
+        curr = nxt
+    return prev  # New head of reversed list

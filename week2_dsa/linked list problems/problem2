@@ -1,0 +1,25 @@
+# Implement Stack using SLL, insert and delete from front
+
+class StackNode:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+class SLLStack:
+    def __init__(self):
+        self.top_node = None
+    
+    def push(self, item):
+        new_node = StackNode(item)
+        new_node.next = self.top_node
+        self.top_node = new_node
+    
+    def pop(self):
+        if self.top_node is None:
+            return None
+        popped_val = self.top_node.val
+        self.top_node = self.top_node.next
+        return popped_val
+    
+    def is_empty(self):
+        return self.top_node is None

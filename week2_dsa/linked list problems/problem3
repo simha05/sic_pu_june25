@@ -1,0 +1,36 @@
+# Implement Stack using DLL, insert and delete from rear
+
+class DLStackNode:
+    def __init__(self, val):
+        self.data = val
+        self.prev = None
+        self.next = None
+
+class DLLStack:
+    def __init__(self):
+        self.head = None
+        self.tail = None
+    
+    def push(self, val):
+        node = DLStackNode(val)
+        if self.tail is None:
+            self.head = self.tail = node
+        else:
+            self.tail.next = node
+            node.prev = self.tail
+            self.tail = node
+    
+    def pop(self):
+        if self.tail is None:
+            return None
+        popped_val = self.tail.data
+        self.tail = self.tail.prev
+        if self.tail is None:
+            self.head = None
+        else:
+            self.tail.next = None
+        return popped_val
+    
+    def empty(self):
+        return self.tail is None
+
