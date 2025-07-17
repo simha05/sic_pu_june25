@@ -1,0 +1,501 @@
+Transaction ID,Customer ID,Customer Name,Car Name,Transaction Date & Time,Date,Day of the Week,Service Type,Amount Paid,Month,Time Slot,DayOfWeek,Hour
+T0001,C067,Jack Young,Mazda 6,2025-04-29 11:07:00,2025-04-29,Tuesday,Full Service,1000,4,Morning,Tuesday,11
+T0002,C002,Jack Young,Hyundai Elantra,2025-04-26 13:56:00,2025-04-26,Saturday,Full Service,1000,4,Afternoon,Saturday,13
+T0003,C006,Bob Smith,BMW 3 Series,2024-04-14 21:29:00,2024-04-14,Sunday,Exterior Wash,381,4,Evening,Sunday,21
+T0004,C026,Bob Smith,Honda Civic,2025-05-31 10:32:00,2025-05-31,Saturday,Full Service,1000,5,Morning,Saturday,10
+T0005,C067,Isla Hall,Ford Focus,2025-06-04 07:06:00,2025-06-04,Wednesday,Interior Wash,493,6,Morning,Wednesday,7
+T0006,C071,David Garcia,Ford Focus,2025-06-05 16:40:00,2025-06-05,Thursday,Interior Wash,553,6,Afternoon,Thursday,16
+T0007,C081,David Garcia,Honda Civic,2024-11-04 09:15:00,2024-11-04,Monday,Foam Wash,700,11,Morning,Monday,9
+T0008,C054,Carol Davis,Chevrolet Malibu,2024-05-26 11:00:00,2024-05-26,Sunday,Foam Wash,892,5,Morning,Sunday,11
+T0009,C058,Carol Davis,Kia Optima,2024-05-03 12:26:00,2024-05-03,Friday,Full Service,1000,5,Afternoon,Friday,12
+T0010,C036,Frank Wilson,Honda Civic,2025-01-26 11:44:00,2025-01-26,Sunday,Foam Wash,899,1,Morning,Sunday,11
+T0011,C039,Grace Lee,Toyota Camry,2025-04-28 15:58:00,2025-04-28,Monday,Full Service,1000,4,Afternoon,Monday,15
+T0012,C057,David Garcia,Nissan Altima,2024-12-19 18:23:00,2024-12-19,Thursday,Foam Wash,734,12,Evening,Thursday,18
+T0013,C001,Grace Lee,Chevrolet Malibu,2024-08-14 15:20:00,2024-08-14,Wednesday,Foam Wash,781,8,Afternoon,Wednesday,15
+T0014,C015,Bob Smith,Kia Optima,2024-11-05 20:54:00,2024-11-05,Tuesday,Exterior Wash,594,11,Evening,Tuesday,20
+T0015,C091,Alice Johnson,Honda Civic,2025-03-27 21:45:00,2025-03-27,Thursday,Foam Wash,835,3,Evening,Thursday,21
+T0016,C051,David Garcia,BMW 3 Series,2024-09-29 10:27:00,2024-09-29,Sunday,Full Service,1000,9,Morning,Sunday,10
+T0017,C046,David Garcia,BMW 3 Series,2024-04-17 14:15:00,2024-04-17,Wednesday,Foam Wash,616,4,Afternoon,Wednesday,14
+T0018,C026,Henry White,Mazda 6,2024-12-02 17:43:00,2024-12-02,Monday,Foam Wash,618,12,Afternoon,Monday,17
+T0019,C013,Frank Wilson,Toyota Camry,2024-06-24 18:31:00,2024-06-24,Monday,Exterior Wash,426,6,Evening,Monday,18
+T0020,C010,Jack Young,Nissan Altima,2025-06-21 11:41:00,2025-06-21,Saturday,Full Service,1000,6,Morning,Saturday,11
+T0021,C011,Alice Johnson,Kia Optima,2024-04-29 21:16:00,2024-04-29,Monday,Exterior Wash,398,4,Evening,Monday,21
+T0022,C024,Alice Johnson,Toyota Camry,2024-10-01 14:18:00,2024-10-01,Tuesday,Full Service,1000,10,Afternoon,Tuesday,14
+T0023,C073,Henry White,Audi A4,2025-01-22 22:10:00,2025-01-22,Wednesday,Exterior Wash,513,1,Evening,Wednesday,22
+T0024,C063,Carol Davis,Toyota Camry,2024-05-12 19:22:00,2024-05-12,Sunday,Foam Wash,604,5,Evening,Sunday,19
+T0025,C072,Henry White,Chevrolet Malibu,2024-01-19 10:52:00,2024-01-19,Friday,Foam Wash,645,1,Morning,Friday,10
+T0026,C015,Carol Davis,BMW 3 Series,2025-02-26 21:59:00,2025-02-26,Wednesday,Exterior Wash,565,2,Evening,Wednesday,21
+T0027,C051,Alice Johnson,Audi A4,2024-07-19 07:51:00,2024-07-19,Friday,Foam Wash,672,7,Morning,Friday,7
+T0028,C100,Eva Brown,Nissan Altima,2024-01-18 15:18:00,2024-01-18,Thursday,Interior Wash,682,1,Afternoon,Thursday,15
+T0029,C048,Jack Young,Audi A4,2025-05-09 19:30:00,2025-05-09,Friday,Interior Wash,486,5,Evening,Friday,19
+T0030,C098,Isla Hall,Hyundai Elantra,2024-06-12 20:23:00,2024-06-12,Wednesday,Exterior Wash,496,6,Evening,Wednesday,20
+T0031,C081,Henry White,Nissan Altima,2024-01-08 07:14:00,2024-01-08,Monday,Foam Wash,696,1,Morning,Monday,7
+T0032,C061,Grace Lee,Chevrolet Malibu,2024-08-27 15:42:00,2024-08-27,Tuesday,Full Service,1000,8,Afternoon,Tuesday,15
+T0033,C047,Carol Davis,Kia Optima,2024-10-19 07:20:00,2024-10-19,Saturday,Foam Wash,815,10,Morning,Saturday,7
+T0034,C036,Eva Brown,BMW 3 Series,2024-02-24 15:19:00,2024-02-24,Saturday,Exterior Wash,424,2,Afternoon,Saturday,15
+T0035,C045,Bob Smith,Audi A4,2024-02-08 14:14:00,2024-02-08,Thursday,Exterior Wash,521,2,Afternoon,Thursday,14
+T0036,C099,David Garcia,Kia Optima,2024-04-20 08:33:00,2024-04-20,Saturday,Foam Wash,624,4,Morning,Saturday,8
+T0037,C093,Henry White,BMW 3 Series,2024-05-29 09:07:00,2024-05-29,Wednesday,Foam Wash,776,5,Morning,Wednesday,9
+T0038,C010,Grace Lee,Ford Focus,2024-09-21 19:56:00,2024-09-21,Saturday,Exterior Wash,365,9,Evening,Saturday,19
+T0039,C085,Eva Brown,Audi A4,2024-10-22 22:02:00,2024-10-22,Tuesday,Exterior Wash,520,10,Evening,Tuesday,22
+T0040,C006,Frank Wilson,Mazda 6,2024-09-26 16:08:00,2024-09-26,Thursday,Interior Wash,418,9,Afternoon,Thursday,16
+T0041,C042,Alice Johnson,Nissan Altima,2024-09-17 14:35:00,2024-09-17,Tuesday,Interior Wash,434,9,Afternoon,Tuesday,14
+T0042,C062,Bob Smith,Audi A4,2024-02-21 15:38:00,2024-02-21,Wednesday,Interior Wash,657,2,Afternoon,Wednesday,15
+T0043,C024,Alice Johnson,Audi A4,2025-05-28 09:52:00,2025-05-28,Wednesday,Interior Wash,671,5,Morning,Wednesday,9
+T0044,C095,Bob Smith,Ford Focus,2025-02-10 15:41:00,2025-02-10,Monday,Full Service,1000,2,Afternoon,Monday,15
+T0045,C056,Jack Young,Toyota Camry,2025-01-26 21:30:00,2025-01-26,Sunday,Interior Wash,641,1,Evening,Sunday,21
+T0046,C053,Grace Lee,Hyundai Elantra,2025-01-02 16:51:00,2025-01-02,Thursday,Exterior Wash,466,1,Afternoon,Thursday,16
+T0047,C047,Grace Lee,Audi A4,2024-03-13 20:39:00,2024-03-13,Wednesday,Full Service,1000,3,Evening,Wednesday,20
+T0048,C005,Bob Smith,Toyota Camry,2024-10-05 16:22:00,2024-10-05,Saturday,Full Service,1000,10,Afternoon,Saturday,16
+T0049,C078,Alice Johnson,Audi A4,2024-11-06 11:45:00,2024-11-06,Wednesday,Exterior Wash,528,11,Morning,Wednesday,11
+T0050,C012,Carol Davis,Audi A4,2024-01-30 13:44:00,2024-01-30,Tuesday,Full Service,1000,1,Afternoon,Tuesday,13
+T0051,C019,Eva Brown,Hyundai Elantra,2024-11-26 16:57:00,2024-11-26,Tuesday,Full Service,1000,11,Afternoon,Tuesday,16
+T0052,C032,David Garcia,Ford Focus,2025-03-24 06:20:00,2025-03-24,Monday,Interior Wash,667,3,Morning,Monday,6
+T0053,C088,Henry White,BMW 3 Series,2024-01-28 15:29:00,2024-01-28,Sunday,Exterior Wash,482,1,Afternoon,Sunday,15
+T0054,C046,Carol Davis,Nissan Altima,2025-06-05 06:43:00,2025-06-05,Thursday,Full Service,1000,6,Morning,Thursday,6
+T0055,C062,Carol Davis,Nissan Altima,2024-03-31 07:13:00,2024-03-31,Sunday,Full Service,1000,3,Morning,Sunday,7
+T0056,C003,Frank Wilson,Chevrolet Malibu,2024-07-11 22:58:00,2024-07-11,Thursday,Exterior Wash,561,7,Evening,Thursday,22
+T0057,C050,Alice Johnson,Kia Optima,2024-01-17 06:42:00,2024-01-17,Wednesday,Foam Wash,846,1,Morning,Wednesday,6
+T0058,C006,Eva Brown,Nissan Altima,2025-03-11 21:45:00,2025-03-11,Tuesday,Full Service,1000,3,Evening,Tuesday,21
+T0059,C082,Grace Lee,BMW 3 Series,2025-01-14 18:43:00,2025-01-14,Tuesday,Full Service,1000,1,Evening,Tuesday,18
+T0060,C022,Henry White,Kia Optima,2024-03-02 06:00:00,2024-03-02,Saturday,Foam Wash,718,3,Morning,Saturday,6
+T0061,C050,Bob Smith,Hyundai Elantra,2025-03-01 22:07:00,2025-03-01,Saturday,Interior Wash,489,3,Evening,Saturday,22
+T0062,C093,Bob Smith,Kia Optima,2024-05-29 19:08:00,2024-05-29,Wednesday,Interior Wash,517,5,Evening,Wednesday,19
+T0063,C023,Henry White,Honda Civic,2024-07-18 22:11:00,2024-07-18,Thursday,Foam Wash,801,7,Evening,Thursday,22
+T0064,C077,Frank Wilson,Kia Optima,2024-02-14 12:38:00,2024-02-14,Wednesday,Full Service,1000,2,Afternoon,Wednesday,12
+T0065,C043,Isla Hall,Honda Civic,2024-10-01 15:44:00,2024-10-01,Tuesday,Exterior Wash,369,10,Afternoon,Tuesday,15
+T0066,C010,Carol Davis,Audi A4,2025-01-14 16:19:00,2025-01-14,Tuesday,Exterior Wash,423,1,Afternoon,Tuesday,16
+T0067,C073,Isla Hall,Toyota Camry,2025-02-07 07:52:00,2025-02-07,Friday,Exterior Wash,431,2,Morning,Friday,7
+T0068,C095,Isla Hall,Mazda 6,2024-04-03 15:15:00,2024-04-03,Wednesday,Interior Wash,648,4,Afternoon,Wednesday,15
+T0069,C041,Eva Brown,BMW 3 Series,2024-02-28 20:10:00,2024-02-28,Wednesday,Full Service,1000,2,Evening,Wednesday,20
+T0070,C031,Isla Hall,Toyota Camry,2024-07-21 06:07:00,2024-07-21,Sunday,Interior Wash,550,7,Morning,Sunday,6
+T0071,C029,David Garcia,Mazda 6,2025-03-10 15:55:00,2025-03-10,Monday,Interior Wash,520,3,Afternoon,Monday,15
+T0072,C017,Frank Wilson,Kia Optima,2025-02-05 08:03:00,2025-02-05,Wednesday,Exterior Wash,589,2,Morning,Wednesday,8
+T0073,C043,Henry White,Hyundai Elantra,2025-06-22 18:06:00,2025-06-22,Sunday,Interior Wash,557,6,Evening,Sunday,18
+T0074,C098,Carol Davis,Honda Civic,2024-12-27 19:39:00,2024-12-27,Friday,Exterior Wash,518,12,Evening,Friday,19
+T0075,C005,Grace Lee,Toyota Camry,2025-04-05 06:29:00,2025-04-05,Saturday,Exterior Wash,402,4,Morning,Saturday,6
+T0076,C051,Bob Smith,Ford Focus,2024-04-27 19:54:00,2024-04-27,Saturday,Exterior Wash,476,4,Evening,Saturday,19
+T0077,C027,Alice Johnson,Chevrolet Malibu,2024-02-29 09:12:00,2024-02-29,Thursday,Foam Wash,886,2,Morning,Thursday,9
+T0078,C074,David Garcia,Toyota Camry,2024-03-20 18:38:00,2024-03-20,Wednesday,Exterior Wash,463,3,Evening,Wednesday,18
+T0079,C019,Henry White,Audi A4,2024-08-04 10:43:00,2024-08-04,Sunday,Full Service,1000,8,Morning,Sunday,10
+T0080,C024,Bob Smith,Kia Optima,2024-09-10 19:07:00,2024-09-10,Tuesday,Full Service,1000,9,Evening,Tuesday,19
+T0081,C031,David Garcia,Chevrolet Malibu,2024-03-11 12:02:00,2024-03-11,Monday,Foam Wash,840,3,Afternoon,Monday,12
+T0082,C055,Frank Wilson,Ford Focus,2024-02-11 17:41:00,2024-02-11,Sunday,Foam Wash,684,2,Afternoon,Sunday,17
+T0083,C007,Henry White,BMW 3 Series,2024-05-23 22:49:00,2024-05-23,Thursday,Full Service,1000,5,Evening,Thursday,22
+T0084,C071,Frank Wilson,Mazda 6,2024-04-10 16:08:00,2024-04-10,Wednesday,Foam Wash,666,4,Afternoon,Wednesday,16
+T0085,C084,Henry White,BMW 3 Series,2024-01-07 08:14:00,2024-01-07,Sunday,Foam Wash,686,1,Morning,Sunday,8
+T0086,C061,Bob Smith,Chevrolet Malibu,2024-09-09 17:48:00,2024-09-09,Monday,Foam Wash,775,9,Afternoon,Monday,17
+T0087,C057,Carol Davis,Chevrolet Malibu,2024-04-07 20:35:00,2024-04-07,Sunday,Full Service,1000,4,Evening,Sunday,20
+T0088,C029,Jack Young,Hyundai Elantra,2025-06-15 12:27:00,2025-06-15,Sunday,Interior Wash,567,6,Afternoon,Sunday,12
+T0089,C004,Frank Wilson,Ford Focus,2024-06-04 22:17:00,2024-06-04,Tuesday,Interior Wash,419,6,Evening,Tuesday,22
+T0090,C006,Bob Smith,Hyundai Elantra,2024-09-06 21:07:00,2024-09-06,Friday,Full Service,1000,9,Evening,Friday,21
+T0091,C029,Henry White,Audi A4,2024-11-06 07:21:00,2024-11-06,Wednesday,Foam Wash,665,11,Morning,Wednesday,7
+T0092,C087,Alice Johnson,Toyota Camry,2024-06-19 19:15:00,2024-06-19,Wednesday,Exterior Wash,363,6,Evening,Wednesday,19
+T0093,C045,Bob Smith,Nissan Altima,2024-04-19 08:10:00,2024-04-19,Friday,Interior Wash,438,4,Morning,Friday,8
+T0094,C025,Isla Hall,Honda Civic,2025-06-01 21:53:00,2025-06-01,Sunday,Exterior Wash,598,6,Evening,Sunday,21
+T0095,C007,Henry White,Toyota Camry,2025-06-25 11:36:00,2025-06-25,Wednesday,Exterior Wash,441,6,Morning,Wednesday,11
+T0096,C054,Isla Hall,Nissan Altima,2025-06-08 09:08:00,2025-06-08,Sunday,Interior Wash,592,6,Morning,Sunday,9
+T0097,C027,David Garcia,Toyota Camry,2024-08-26 22:26:00,2024-08-26,Monday,Foam Wash,735,8,Evening,Monday,22
+T0098,C100,Bob Smith,Chevrolet Malibu,2024-09-27 12:53:00,2024-09-27,Friday,Foam Wash,896,9,Afternoon,Friday,12
+T0099,C030,Alice Johnson,Hyundai Elantra,2025-03-13 19:55:00,2025-03-13,Thursday,Exterior Wash,312,3,Evening,Thursday,19
+T0100,C072,David Garcia,Kia Optima,2024-08-29 13:42:00,2024-08-29,Thursday,Full Service,1000,8,Afternoon,Thursday,13
+T0101,C068,Eva Brown,BMW 3 Series,2024-04-13 17:29:00,2024-04-13,Saturday,Exterior Wash,402,4,Afternoon,Saturday,17
+T0102,C017,Carol Davis,Chevrolet Malibu,2024-10-30 18:12:00,2024-10-30,Wednesday,Full Service,1000,10,Evening,Wednesday,18
+T0103,C038,Eva Brown,BMW 3 Series,2025-02-09 21:04:00,2025-02-09,Sunday,Full Service,1000,2,Evening,Sunday,21
+T0104,C023,Frank Wilson,Nissan Altima,2024-07-07 07:20:00,2024-07-07,Sunday,Exterior Wash,441,7,Morning,Sunday,7
+T0105,C087,Bob Smith,Nissan Altima,2025-06-27 15:29:00,2025-06-27,Friday,Full Service,1000,6,Afternoon,Friday,15
+T0106,C008,Carol Davis,Audi A4,2024-07-31 17:32:00,2024-07-31,Wednesday,Exterior Wash,343,7,Afternoon,Wednesday,17
+T0107,C084,Jack Young,Ford Focus,2024-07-26 10:03:00,2024-07-26,Friday,Interior Wash,652,7,Morning,Friday,10
+T0108,C050,Carol Davis,Ford Focus,2024-04-29 08:49:00,2024-04-29,Monday,Exterior Wash,524,4,Morning,Monday,8
+T0109,C068,Jack Young,Nissan Altima,2024-11-11 06:32:00,2024-11-11,Monday,Interior Wash,404,11,Morning,Monday,6
+T0110,C003,Alice Johnson,Hyundai Elantra,2024-10-01 21:34:00,2024-10-01,Tuesday,Full Service,1000,10,Evening,Tuesday,21
+T0111,C007,Carol Davis,Ford Focus,2024-02-13 16:09:00,2024-02-13,Tuesday,Full Service,1000,2,Afternoon,Tuesday,16
+T0112,C084,Isla Hall,Audi A4,2025-01-28 10:44:00,2025-01-28,Tuesday,Exterior Wash,302,1,Morning,Tuesday,10
+T0113,C058,Carol Davis,Toyota Camry,2025-01-02 21:31:00,2025-01-02,Thursday,Full Service,1000,1,Evening,Thursday,21
+T0114,C004,David Garcia,Nissan Altima,2024-04-06 12:12:00,2024-04-06,Saturday,Interior Wash,404,4,Afternoon,Saturday,12
+T0115,C081,Alice Johnson,BMW 3 Series,2024-12-03 22:18:00,2024-12-03,Tuesday,Full Service,1000,12,Evening,Tuesday,22
+T0116,C077,Frank Wilson,Nissan Altima,2025-02-08 18:59:00,2025-02-08,Saturday,Full Service,1000,2,Evening,Saturday,18
+T0117,C044,Jack Young,BMW 3 Series,2024-03-16 08:59:00,2024-03-16,Saturday,Foam Wash,812,3,Morning,Saturday,8
+T0118,C032,Frank Wilson,Mazda 6,2025-01-17 14:21:00,2025-01-17,Friday,Interior Wash,512,1,Afternoon,Friday,14
+T0119,C029,Eva Brown,Hyundai Elantra,2024-11-05 11:00:00,2024-11-05,Tuesday,Interior Wash,488,11,Morning,Tuesday,11
+T0120,C059,Alice Johnson,Chevrolet Malibu,2024-04-02 11:53:00,2024-04-02,Tuesday,Full Service,1000,4,Morning,Tuesday,11
+T0121,C035,Frank Wilson,BMW 3 Series,2024-09-19 19:04:00,2024-09-19,Thursday,Foam Wash,783,9,Evening,Thursday,19
+T0122,C080,Henry White,BMW 3 Series,2025-05-13 06:34:00,2025-05-13,Tuesday,Foam Wash,890,5,Morning,Tuesday,6
+T0123,C070,Isla Hall,Nissan Altima,2024-05-03 12:25:00,2024-05-03,Friday,Exterior Wash,554,5,Afternoon,Friday,12
+T0124,C100,Jack Young,Mazda 6,2024-07-14 13:47:00,2024-07-14,Sunday,Foam Wash,833,7,Afternoon,Sunday,13
+T0125,C047,Grace Lee,Kia Optima,2024-08-13 20:09:00,2024-08-13,Tuesday,Foam Wash,799,8,Evening,Tuesday,20
+T0126,C021,Eva Brown,Hyundai Elantra,2024-06-16 08:30:00,2024-06-16,Sunday,Interior Wash,492,6,Morning,Sunday,8
+T0127,C060,Jack Young,Toyota Camry,2025-01-06 14:13:00,2025-01-06,Monday,Full Service,1000,1,Afternoon,Monday,14
+T0128,C025,Eva Brown,Mazda 6,2024-04-28 19:32:00,2024-04-28,Sunday,Interior Wash,468,4,Evening,Sunday,19
+T0129,C055,Grace Lee,Ford Focus,2025-04-01 17:41:00,2025-04-01,Tuesday,Exterior Wash,475,4,Afternoon,Tuesday,17
+T0130,C059,Carol Davis,Mazda 6,2025-02-20 19:19:00,2025-02-20,Thursday,Full Service,1000,2,Evening,Thursday,19
+T0131,C058,Alice Johnson,Honda Civic,2024-11-20 09:28:00,2024-11-20,Wednesday,Full Service,1000,11,Morning,Wednesday,9
+T0132,C092,Henry White,Ford Focus,2024-07-29 06:44:00,2024-07-29,Monday,Foam Wash,652,7,Morning,Monday,6
+T0133,C078,David Garcia,Hyundai Elantra,2024-11-29 10:54:00,2024-11-29,Friday,Foam Wash,747,11,Morning,Friday,10
+T0134,C051,Grace Lee,Chevrolet Malibu,2024-06-02 20:08:00,2024-06-02,Sunday,Foam Wash,763,6,Evening,Sunday,20
+T0135,C083,Bob Smith,Mazda 6,2024-09-12 16:20:00,2024-09-12,Thursday,Full Service,1000,9,Afternoon,Thursday,16
+T0136,C036,Jack Young,Toyota Camry,2024-08-31 22:03:00,2024-08-31,Saturday,Full Service,1000,8,Evening,Saturday,22
+T0137,C096,Frank Wilson,Toyota Camry,2024-08-19 21:26:00,2024-08-19,Monday,Full Service,1000,8,Evening,Monday,21
+T0138,C079,Alice Johnson,BMW 3 Series,2024-08-15 14:37:00,2024-08-15,Thursday,Foam Wash,645,8,Afternoon,Thursday,14
+T0139,C053,Alice Johnson,Chevrolet Malibu,2025-06-19 21:21:00,2025-06-19,Thursday,Exterior Wash,309,6,Evening,Thursday,21
+T0140,C039,Frank Wilson,Kia Optima,2025-01-05 12:22:00,2025-01-05,Sunday,Interior Wash,505,1,Afternoon,Sunday,12
+T0141,C004,Grace Lee,Mazda 6,2025-06-28 16:47:00,2025-06-28,Saturday,Full Service,1000,6,Afternoon,Saturday,16
+T0142,C012,Henry White,Nissan Altima,2025-03-27 16:20:00,2025-03-27,Thursday,Full Service,1000,3,Afternoon,Thursday,16
+T0143,C018,Henry White,Audi A4,2024-07-06 14:05:00,2024-07-06,Saturday,Full Service,1000,7,Afternoon,Saturday,14
+T0144,C021,Henry White,Toyota Camry,2025-05-25 22:09:00,2025-05-25,Sunday,Foam Wash,788,5,Evening,Sunday,22
+T0145,C066,Isla Hall,Mazda 6,2024-07-18 20:32:00,2024-07-18,Thursday,Interior Wash,475,7,Evening,Thursday,20
+T0146,C064,Jack Young,Ford Focus,2024-06-08 19:08:00,2024-06-08,Saturday,Foam Wash,778,6,Evening,Saturday,19
+T0147,C071,Jack Young,Honda Civic,2024-09-30 20:53:00,2024-09-30,Monday,Foam Wash,728,9,Evening,Monday,20
+T0148,C044,Eva Brown,Chevrolet Malibu,2024-01-14 06:51:00,2024-01-14,Sunday,Foam Wash,708,1,Morning,Sunday,6
+T0149,C079,Bob Smith,Kia Optima,2024-08-01 11:27:00,2024-08-01,Thursday,Interior Wash,685,8,Morning,Thursday,11
+T0150,C063,Carol Davis,Toyota Camry,2024-02-29 06:07:00,2024-02-29,Thursday,Interior Wash,530,2,Morning,Thursday,6
+T0151,C030,Frank Wilson,Audi A4,2024-03-12 18:08:00,2024-03-12,Tuesday,Exterior Wash,496,3,Evening,Tuesday,18
+T0152,C041,Alice Johnson,Toyota Camry,2025-01-05 22:01:00,2025-01-05,Sunday,Foam Wash,631,1,Evening,Sunday,22
+T0153,C004,Carol Davis,Nissan Altima,2025-01-31 13:47:00,2025-01-31,Friday,Foam Wash,693,1,Afternoon,Friday,13
+T0154,C068,Isla Hall,Kia Optima,2025-04-16 15:49:00,2025-04-16,Wednesday,Interior Wash,564,4,Afternoon,Wednesday,15
+T0155,C062,Grace Lee,Ford Focus,2025-02-28 07:52:00,2025-02-28,Friday,Interior Wash,614,2,Morning,Friday,7
+T0156,C052,Frank Wilson,Toyota Camry,2025-02-20 20:37:00,2025-02-20,Thursday,Interior Wash,589,2,Evening,Thursday,20
+T0157,C028,Jack Young,Hyundai Elantra,2025-01-08 11:57:00,2025-01-08,Wednesday,Full Service,1000,1,Morning,Wednesday,11
+T0158,C034,Jack Young,Mazda 6,2025-05-29 12:52:00,2025-05-29,Thursday,Interior Wash,466,5,Afternoon,Thursday,12
+T0159,C048,Carol Davis,Kia Optima,2024-06-16 20:13:00,2024-06-16,Sunday,Full Service,1000,6,Evening,Sunday,20
+T0160,C046,Eva Brown,Honda Civic,2024-03-12 07:12:00,2024-03-12,Tuesday,Exterior Wash,480,3,Morning,Tuesday,7
+T0161,C020,Carol Davis,Audi A4,2024-07-13 21:26:00,2024-07-13,Saturday,Foam Wash,606,7,Evening,Saturday,21
+T0162,C072,David Garcia,Nissan Altima,2024-03-12 17:35:00,2024-03-12,Tuesday,Full Service,1000,3,Afternoon,Tuesday,17
+T0163,C021,Grace Lee,Nissan Altima,2024-02-12 06:26:00,2024-02-12,Monday,Interior Wash,648,2,Morning,Monday,6
+T0164,C038,Grace Lee,Mazda 6,2024-11-18 07:38:00,2024-11-18,Monday,Interior Wash,425,11,Morning,Monday,7
+T0165,C079,Jack Young,BMW 3 Series,2024-02-11 17:59:00,2024-02-11,Sunday,Interior Wash,683,2,Afternoon,Sunday,17
+T0166,C009,Eva Brown,Ford Focus,2025-02-14 07:29:00,2025-02-14,Friday,Exterior Wash,496,2,Morning,Friday,7
+T0167,C056,Henry White,Nissan Altima,2024-01-15 17:34:00,2024-01-15,Monday,Interior Wash,567,1,Afternoon,Monday,17
+T0168,C090,Henry White,Kia Optima,2024-05-27 08:47:00,2024-05-27,Monday,Exterior Wash,597,5,Morning,Monday,8
+T0169,C054,Isla Hall,Kia Optima,2024-07-05 07:56:00,2024-07-05,Friday,Interior Wash,687,7,Morning,Friday,7
+T0170,C023,Jack Young,Mazda 6,2025-05-13 18:16:00,2025-05-13,Tuesday,Exterior Wash,538,5,Evening,Tuesday,18
+T0171,C058,Jack Young,Ford Focus,2024-08-11 18:12:00,2024-08-11,Sunday,Full Service,1000,8,Evening,Sunday,18
+T0172,C079,Isla Hall,Honda Civic,2024-05-27 21:19:00,2024-05-27,Monday,Exterior Wash,584,5,Evening,Monday,21
+T0173,C073,Henry White,Ford Focus,2024-01-09 08:20:00,2024-01-09,Tuesday,Interior Wash,637,1,Morning,Tuesday,8
+T0174,C043,Eva Brown,Ford Focus,2024-07-18 10:39:00,2024-07-18,Thursday,Exterior Wash,450,7,Morning,Thursday,10
+T0175,C044,David Garcia,Chevrolet Malibu,2024-05-16 20:54:00,2024-05-16,Thursday,Exterior Wash,457,5,Evening,Thursday,20
+T0176,C081,Grace Lee,Hyundai Elantra,2025-01-05 07:37:00,2025-01-05,Sunday,Interior Wash,690,1,Morning,Sunday,7
+T0177,C030,Alice Johnson,Honda Civic,2024-01-22 18:54:00,2024-01-22,Monday,Full Service,1000,1,Evening,Monday,18
+T0178,C050,Bob Smith,BMW 3 Series,2024-07-12 16:39:00,2024-07-12,Friday,Interior Wash,552,7,Afternoon,Friday,16
+T0179,C028,Jack Young,Kia Optima,2024-03-07 20:52:00,2024-03-07,Thursday,Exterior Wash,531,3,Evening,Thursday,20
+T0180,C061,Carol Davis,Chevrolet Malibu,2025-03-10 18:06:00,2025-03-10,Monday,Interior Wash,581,3,Evening,Monday,18
+T0181,C023,David Garcia,BMW 3 Series,2024-11-19 16:34:00,2024-11-19,Tuesday,Full Service,1000,11,Afternoon,Tuesday,16
+T0182,C017,Jack Young,Audi A4,2025-05-05 21:17:00,2025-05-05,Monday,Exterior Wash,513,5,Evening,Monday,21
+T0183,C073,Carol Davis,Honda Civic,2024-04-23 19:38:00,2024-04-23,Tuesday,Exterior Wash,584,4,Evening,Tuesday,19
+T0184,C093,David Garcia,Toyota Camry,2025-02-03 12:01:00,2025-02-03,Monday,Exterior Wash,544,2,Afternoon,Monday,12
+T0185,C011,Henry White,Mazda 6,2024-02-13 11:37:00,2024-02-13,Tuesday,Interior Wash,425,2,Morning,Tuesday,11
+T0186,C050,Isla Hall,Honda Civic,2024-05-22 08:55:00,2024-05-22,Wednesday,Full Service,1000,5,Morning,Wednesday,8
+T0187,C080,Frank Wilson,Mazda 6,2024-05-16 08:18:00,2024-05-16,Thursday,Exterior Wash,334,5,Morning,Thursday,8
+T0188,C052,Bob Smith,Kia Optima,2024-11-29 19:03:00,2024-11-29,Friday,Full Service,1000,11,Evening,Friday,19
+T0189,C039,Eva Brown,Hyundai Elantra,2024-03-09 09:52:00,2024-03-09,Saturday,Full Service,1000,3,Morning,Saturday,9
+T0190,C085,Isla Hall,Honda Civic,2024-11-30 11:09:00,2024-11-30,Saturday,Exterior Wash,558,11,Morning,Saturday,11
+T0191,C069,Frank Wilson,Nissan Altima,2024-10-19 15:01:00,2024-10-19,Saturday,Foam Wash,624,10,Afternoon,Saturday,15
+T0192,C039,Jack Young,BMW 3 Series,2024-06-07 21:15:00,2024-06-07,Friday,Foam Wash,779,6,Evening,Friday,21
+T0193,C046,Henry White,Chevrolet Malibu,2024-11-05 22:01:00,2024-11-05,Tuesday,Interior Wash,617,11,Evening,Tuesday,22
+T0194,C095,Grace Lee,Ford Focus,2024-11-08 22:32:00,2024-11-08,Friday,Exterior Wash,416,11,Evening,Friday,22
+T0195,C010,Eva Brown,Toyota Camry,2025-01-01 21:07:00,2025-01-01,Wednesday,Exterior Wash,476,1,Evening,Wednesday,21
+T0196,C057,Alice Johnson,BMW 3 Series,2025-03-02 20:06:00,2025-03-02,Sunday,Full Service,1000,3,Evening,Sunday,20
+T0197,C009,Alice Johnson,Toyota Camry,2024-08-02 08:47:00,2024-08-02,Friday,Full Service,1000,8,Morning,Friday,8
+T0198,C091,Eva Brown,Kia Optima,2024-10-28 06:34:00,2024-10-28,Monday,Full Service,1000,10,Morning,Monday,6
+T0199,C092,Grace Lee,Nissan Altima,2024-10-25 07:31:00,2024-10-25,Friday,Foam Wash,622,10,Morning,Friday,7
+T0200,C078,Bob Smith,Kia Optima,2025-04-03 10:30:00,2025-04-03,Thursday,Foam Wash,625,4,Morning,Thursday,10
+T0201,C082,Frank Wilson,Honda Civic,2024-07-03 15:52:00,2024-07-03,Wednesday,Full Service,1000,7,Afternoon,Wednesday,15
+T0202,C032,Eva Brown,Hyundai Elantra,2024-08-12 19:07:00,2024-08-12,Monday,Full Service,1000,8,Evening,Monday,19
+T0203,C074,Jack Young,Hyundai Elantra,2025-04-29 13:06:00,2025-04-29,Tuesday,Full Service,1000,4,Afternoon,Tuesday,13
+T0204,C056,Carol Davis,Toyota Camry,2024-01-10 06:43:00,2024-01-10,Wednesday,Foam Wash,730,1,Morning,Wednesday,6
+T0205,C026,Bob Smith,Audi A4,2024-05-26 15:11:00,2024-05-26,Sunday,Interior Wash,552,5,Afternoon,Sunday,15
+T0206,C026,Jack Young,Nissan Altima,2024-02-03 18:46:00,2024-02-03,Saturday,Full Service,1000,2,Evening,Saturday,18
+T0207,C086,Jack Young,Honda Civic,2024-01-23 21:44:00,2024-01-23,Tuesday,Foam Wash,711,1,Evening,Tuesday,21
+T0208,C094,Frank Wilson,BMW 3 Series,2025-05-07 18:29:00,2025-05-07,Wednesday,Full Service,1000,5,Evening,Wednesday,18
+T0209,C008,Henry White,Toyota Camry,2025-01-17 22:59:00,2025-01-17,Friday,Foam Wash,741,1,Evening,Friday,22
+T0210,C054,Henry White,BMW 3 Series,2025-04-25 16:46:00,2025-04-25,Friday,Foam Wash,878,4,Afternoon,Friday,16
+T0211,C031,Jack Young,BMW 3 Series,2024-06-06 11:00:00,2024-06-06,Thursday,Interior Wash,525,6,Morning,Thursday,11
+T0212,C010,Grace Lee,Mazda 6,2024-07-31 19:09:00,2024-07-31,Wednesday,Full Service,1000,7,Evening,Wednesday,19
+T0213,C090,Henry White,Ford Focus,2024-01-28 20:08:00,2024-01-28,Sunday,Foam Wash,836,1,Evening,Sunday,20
+T0214,C001,Frank Wilson,Hyundai Elantra,2024-12-29 17:47:00,2024-12-29,Sunday,Interior Wash,533,12,Afternoon,Sunday,17
+T0215,C025,Henry White,Nissan Altima,2024-11-16 22:15:00,2024-11-16,Saturday,Interior Wash,624,11,Evening,Saturday,22
+T0216,C035,Alice Johnson,Kia Optima,2024-10-07 16:37:00,2024-10-07,Monday,Exterior Wash,336,10,Afternoon,Monday,16
+T0217,C022,Grace Lee,Hyundai Elantra,2025-02-15 08:10:00,2025-02-15,Saturday,Full Service,1000,2,Morning,Saturday,8
+T0218,C001,David Garcia,BMW 3 Series,2025-02-03 21:04:00,2025-02-03,Monday,Foam Wash,843,2,Evening,Monday,21
+T0219,C040,Alice Johnson,Audi A4,2024-07-10 17:34:00,2024-07-10,Wednesday,Full Service,1000,7,Afternoon,Wednesday,17
+T0220,C012,Isla Hall,Audi A4,2024-04-14 08:28:00,2024-04-14,Sunday,Interior Wash,509,4,Morning,Sunday,8
+T0221,C002,Frank Wilson,Chevrolet Malibu,2024-12-25 08:02:00,2024-12-25,Wednesday,Foam Wash,812,12,Morning,Wednesday,8
+T0222,C057,David Garcia,Hyundai Elantra,2024-10-17 09:12:00,2024-10-17,Thursday,Interior Wash,671,10,Morning,Thursday,9
+T0223,C040,Isla Hall,BMW 3 Series,2024-08-30 07:05:00,2024-08-30,Friday,Interior Wash,650,8,Morning,Friday,7
+T0224,C065,Carol Davis,Honda Civic,2024-04-15 14:38:00,2024-04-15,Monday,Exterior Wash,571,4,Afternoon,Monday,14
+T0225,C075,Henry White,BMW 3 Series,2024-03-26 18:49:00,2024-03-26,Tuesday,Interior Wash,515,3,Evening,Tuesday,18
+T0226,C055,Alice Johnson,Ford Focus,2024-11-22 11:48:00,2024-11-22,Friday,Foam Wash,699,11,Morning,Friday,11
+T0227,C063,Eva Brown,Audi A4,2025-03-29 06:43:00,2025-03-29,Saturday,Interior Wash,681,3,Morning,Saturday,6
+T0228,C072,Carol Davis,Mazda 6,2025-04-02 10:03:00,2025-04-02,Wednesday,Foam Wash,770,4,Morning,Wednesday,10
+T0229,C036,David Garcia,Ford Focus,2024-05-22 10:03:00,2024-05-22,Wednesday,Full Service,1000,5,Morning,Wednesday,10
+T0230,C039,Eva Brown,Kia Optima,2025-03-04 13:39:00,2025-03-04,Tuesday,Interior Wash,533,3,Afternoon,Tuesday,13
+T0231,C060,Frank Wilson,BMW 3 Series,2024-02-17 09:03:00,2024-02-17,Saturday,Foam Wash,897,2,Morning,Saturday,9
+T0232,C009,Frank Wilson,Ford Focus,2025-03-18 11:26:00,2025-03-18,Tuesday,Full Service,1000,3,Morning,Tuesday,11
+T0233,C091,David Garcia,Audi A4,2024-05-27 09:33:00,2024-05-27,Monday,Foam Wash,618,5,Morning,Monday,9
+T0234,C091,Henry White,Ford Focus,2024-03-23 21:46:00,2024-03-23,Saturday,Full Service,1000,3,Evening,Saturday,21
+T0235,C094,Jack Young,Honda Civic,2025-03-02 22:20:00,2025-03-02,Sunday,Full Service,1000,3,Evening,Sunday,22
+T0236,C089,Henry White,Nissan Altima,2024-03-07 06:50:00,2024-03-07,Thursday,Interior Wash,450,3,Morning,Thursday,6
+T0237,C096,Eva Brown,Chevrolet Malibu,2025-04-08 22:05:00,2025-04-08,Tuesday,Full Service,1000,4,Evening,Tuesday,22
+T0238,C024,David Garcia,Kia Optima,2024-09-10 21:28:00,2024-09-10,Tuesday,Full Service,1000,9,Evening,Tuesday,21
+T0239,C069,Bob Smith,Nissan Altima,2024-07-14 11:59:00,2024-07-14,Sunday,Exterior Wash,335,7,Morning,Sunday,11
+T0240,C083,Bob Smith,Ford Focus,2025-04-24 06:12:00,2025-04-24,Thursday,Foam Wash,855,4,Morning,Thursday,6
+T0241,C011,Isla Hall,BMW 3 Series,2024-01-23 07:39:00,2024-01-23,Tuesday,Full Service,1000,1,Morning,Tuesday,7
+T0242,C060,David Garcia,Honda Civic,2024-05-29 13:03:00,2024-05-29,Wednesday,Interior Wash,614,5,Afternoon,Wednesday,13
+T0243,C005,Grace Lee,Honda Civic,2024-04-10 08:41:00,2024-04-10,Wednesday,Interior Wash,696,4,Morning,Wednesday,8
+T0244,C069,Bob Smith,Ford Focus,2024-12-22 06:02:00,2024-12-22,Sunday,Full Service,1000,12,Morning,Sunday,6
+T0245,C084,Eva Brown,BMW 3 Series,2024-10-09 22:46:00,2024-10-09,Wednesday,Foam Wash,800,10,Evening,Wednesday,22
+T0246,C005,Henry White,Audi A4,2024-06-03 19:32:00,2024-06-03,Monday,Interior Wash,441,6,Evening,Monday,19
+T0247,C067,Grace Lee,Kia Optima,2025-05-22 17:08:00,2025-05-22,Thursday,Full Service,1000,5,Afternoon,Thursday,17
+T0248,C016,Carol Davis,BMW 3 Series,2024-01-03 10:01:00,2024-01-03,Wednesday,Exterior Wash,483,1,Morning,Wednesday,10
+T0249,C096,Jack Young,Nissan Altima,2024-01-31 06:51:00,2024-01-31,Wednesday,Foam Wash,646,1,Morning,Wednesday,6
+T0250,C023,David Garcia,Honda Civic,2024-08-05 08:12:00,2024-08-05,Monday,Full Service,1000,8,Morning,Monday,8
+T0251,C053,Grace Lee,Hyundai Elantra,2025-01-28 10:52:00,2025-01-28,Tuesday,Full Service,1000,1,Morning,Tuesday,10
+T0252,C026,Eva Brown,Hyundai Elantra,2024-03-20 10:59:00,2024-03-20,Wednesday,Interior Wash,507,3,Morning,Wednesday,10
+T0253,C013,Grace Lee,Toyota Camry,2025-06-27 19:27:00,2025-06-27,Friday,Interior Wash,509,6,Evening,Friday,19
+T0254,C003,Bob Smith,Nissan Altima,2025-05-06 21:31:00,2025-05-06,Tuesday,Interior Wash,427,5,Evening,Tuesday,21
+T0255,C023,Carol Davis,Ford Focus,2024-12-09 06:16:00,2024-12-09,Monday,Full Service,1000,12,Morning,Monday,6
+T0256,C044,Frank Wilson,Mazda 6,2025-01-24 09:14:00,2025-01-24,Friday,Foam Wash,814,1,Morning,Friday,9
+T0257,C015,Frank Wilson,Honda Civic,2024-10-18 12:09:00,2024-10-18,Friday,Foam Wash,899,10,Afternoon,Friday,12
+T0258,C013,Alice Johnson,Chevrolet Malibu,2025-06-10 08:55:00,2025-06-10,Tuesday,Interior Wash,592,6,Morning,Tuesday,8
+T0259,C091,Frank Wilson,Audi A4,2025-01-08 18:15:00,2025-01-08,Wednesday,Foam Wash,739,1,Evening,Wednesday,18
+T0260,C058,Jack Young,Honda Civic,2024-03-26 06:42:00,2024-03-26,Tuesday,Exterior Wash,484,3,Morning,Tuesday,6
+T0261,C057,Frank Wilson,BMW 3 Series,2025-02-14 15:42:00,2025-02-14,Friday,Exterior Wash,581,2,Afternoon,Friday,15
+T0262,C003,Alice Johnson,Mazda 6,2024-07-12 17:22:00,2024-07-12,Friday,Interior Wash,564,7,Afternoon,Friday,17
+T0263,C079,Alice Johnson,Toyota Camry,2024-02-27 14:34:00,2024-02-27,Tuesday,Interior Wash,490,2,Afternoon,Tuesday,14
+T0264,C059,Bob Smith,Honda Civic,2024-11-14 17:04:00,2024-11-14,Thursday,Interior Wash,552,11,Afternoon,Thursday,17
+T0265,C035,Grace Lee,Nissan Altima,2025-06-19 15:29:00,2025-06-19,Thursday,Full Service,1000,6,Afternoon,Thursday,15
+T0266,C093,Eva Brown,Ford Focus,2025-03-20 10:45:00,2025-03-20,Thursday,Interior Wash,607,3,Morning,Thursday,10
+T0267,C002,Isla Hall,Mazda 6,2025-05-19 06:16:00,2025-05-19,Monday,Foam Wash,662,5,Morning,Monday,6
+T0268,C055,Bob Smith,Honda Civic,2025-01-07 10:51:00,2025-01-07,Tuesday,Exterior Wash,498,1,Morning,Tuesday,10
+T0269,C039,Frank Wilson,Mazda 6,2024-12-24 12:13:00,2024-12-24,Tuesday,Full Service,1000,12,Afternoon,Tuesday,12
+T0270,C061,Eva Brown,Hyundai Elantra,2024-07-05 17:37:00,2024-07-05,Friday,Foam Wash,686,7,Afternoon,Friday,17
+T0271,C015,David Garcia,Honda Civic,2024-08-10 06:16:00,2024-08-10,Saturday,Interior Wash,580,8,Morning,Saturday,6
+T0272,C050,Carol Davis,Hyundai Elantra,2025-03-29 21:15:00,2025-03-29,Saturday,Interior Wash,508,3,Evening,Saturday,21
+T0273,C078,Frank Wilson,Ford Focus,2025-04-04 14:58:00,2025-04-04,Friday,Exterior Wash,600,4,Afternoon,Friday,14
+T0274,C018,Isla Hall,Audi A4,2024-08-24 22:11:00,2024-08-24,Saturday,Full Service,1000,8,Evening,Saturday,22
+T0275,C048,Jack Young,Toyota Camry,2025-01-16 12:32:00,2025-01-16,Thursday,Foam Wash,848,1,Afternoon,Thursday,12
+T0276,C079,Henry White,Audi A4,2025-04-04 18:37:00,2025-04-04,Friday,Foam Wash,819,4,Evening,Friday,18
+T0277,C026,Carol Davis,Honda Civic,2024-07-17 21:29:00,2024-07-17,Wednesday,Interior Wash,445,7,Evening,Wednesday,21
+T0278,C072,Carol Davis,Toyota Camry,2024-07-20 08:04:00,2024-07-20,Saturday,Full Service,1000,7,Morning,Saturday,8
+T0279,C057,Isla Hall,Hyundai Elantra,2024-12-30 17:53:00,2024-12-30,Monday,Interior Wash,506,12,Afternoon,Monday,17
+T0280,C017,Frank Wilson,Nissan Altima,2025-05-03 20:27:00,2025-05-03,Saturday,Exterior Wash,348,5,Evening,Saturday,20
+T0281,C098,Carol Davis,Audi A4,2025-05-28 17:39:00,2025-05-28,Wednesday,Foam Wash,667,5,Afternoon,Wednesday,17
+T0282,C056,Eva Brown,Toyota Camry,2025-06-17 11:53:00,2025-06-17,Tuesday,Foam Wash,804,6,Morning,Tuesday,11
+T0283,C049,Jack Young,Hyundai Elantra,2024-01-03 07:17:00,2024-01-03,Wednesday,Full Service,1000,1,Morning,Wednesday,7
+T0284,C018,David Garcia,Hyundai Elantra,2025-06-14 22:18:00,2025-06-14,Saturday,Full Service,1000,6,Evening,Saturday,22
+T0285,C089,David Garcia,Hyundai Elantra,2024-02-20 19:55:00,2024-02-20,Tuesday,Full Service,1000,2,Evening,Tuesday,19
+T0286,C002,Frank Wilson,Hyundai Elantra,2024-08-31 08:11:00,2024-08-31,Saturday,Foam Wash,783,8,Morning,Saturday,8
+T0287,C100,Grace Lee,Mazda 6,2024-12-06 14:52:00,2024-12-06,Friday,Full Service,1000,12,Afternoon,Friday,14
+T0288,C091,Frank Wilson,Toyota Camry,2025-04-30 07:17:00,2025-04-30,Wednesday,Foam Wash,633,4,Morning,Wednesday,7
+T0289,C059,Bob Smith,Mazda 6,2024-06-30 22:20:00,2024-06-30,Sunday,Exterior Wash,517,6,Evening,Sunday,22
+T0290,C094,Grace Lee,Chevrolet Malibu,2024-06-12 09:20:00,2024-06-12,Wednesday,Full Service,1000,6,Morning,Wednesday,9
+T0291,C089,Alice Johnson,Toyota Camry,2024-03-19 07:56:00,2024-03-19,Tuesday,Exterior Wash,473,3,Morning,Tuesday,7
+T0292,C044,David Garcia,Ford Focus,2024-05-25 20:14:00,2024-05-25,Saturday,Foam Wash,620,5,Evening,Saturday,20
+T0293,C087,Carol Davis,Hyundai Elantra,2024-01-03 20:24:00,2024-01-03,Wednesday,Full Service,1000,1,Evening,Wednesday,20
+T0294,C091,Alice Johnson,Toyota Camry,2025-03-13 19:41:00,2025-03-13,Thursday,Interior Wash,451,3,Evening,Thursday,19
+T0295,C031,Frank Wilson,Kia Optima,2025-01-10 07:37:00,2025-01-10,Friday,Foam Wash,784,1,Morning,Friday,7
+T0296,C004,Henry White,Nissan Altima,2024-10-03 18:53:00,2024-10-03,Thursday,Foam Wash,614,10,Evening,Thursday,18
+T0297,C001,Eva Brown,Toyota Camry,2025-02-25 15:50:00,2025-02-25,Tuesday,Full Service,1000,2,Afternoon,Tuesday,15
+T0298,C082,Grace Lee,Audi A4,2025-04-06 12:36:00,2025-04-06,Sunday,Full Service,1000,4,Afternoon,Sunday,12
+T0299,C023,David Garcia,Audi A4,2024-02-29 19:23:00,2024-02-29,Thursday,Full Service,1000,2,Evening,Thursday,19
+T0300,C026,David Garcia,Chevrolet Malibu,2025-04-16 09:27:00,2025-04-16,Wednesday,Full Service,1000,4,Morning,Wednesday,9
+T0301,C093,Grace Lee,Mazda 6,2024-04-19 19:02:00,2024-04-19,Friday,Exterior Wash,518,4,Evening,Friday,19
+T0302,C083,David Garcia,Mazda 6,2024-03-21 16:08:00,2024-03-21,Thursday,Exterior Wash,547,3,Afternoon,Thursday,16
+T0303,C057,Jack Young,Mazda 6,2025-05-03 16:53:00,2025-05-03,Saturday,Exterior Wash,493,5,Afternoon,Saturday,16
+T0304,C046,Henry White,Kia Optima,2025-03-13 14:05:00,2025-03-13,Thursday,Interior Wash,423,3,Afternoon,Thursday,14
+T0305,C025,David Garcia,Chevrolet Malibu,2024-07-26 15:41:00,2024-07-26,Friday,Foam Wash,612,7,Afternoon,Friday,15
+T0306,C046,Frank Wilson,Audi A4,2024-01-18 16:26:00,2024-01-18,Thursday,Interior Wash,421,1,Afternoon,Thursday,16
+T0307,C095,Frank Wilson,Mazda 6,2024-05-02 06:29:00,2024-05-02,Thursday,Full Service,1000,5,Morning,Thursday,6
+T0308,C076,Frank Wilson,Mazda 6,2024-01-16 20:46:00,2024-01-16,Tuesday,Foam Wash,760,1,Evening,Tuesday,20
+T0309,C010,Eva Brown,Toyota Camry,2024-07-20 12:55:00,2024-07-20,Saturday,Interior Wash,649,7,Afternoon,Saturday,12
+T0310,C090,Henry White,Honda Civic,2024-10-07 19:58:00,2024-10-07,Monday,Full Service,1000,10,Evening,Monday,19
+T0311,C033,Isla Hall,Ford Focus,2025-03-07 21:13:00,2025-03-07,Friday,Full Service,1000,3,Evening,Friday,21
+T0312,C028,Alice Johnson,Audi A4,2024-01-17 22:52:00,2024-01-17,Wednesday,Foam Wash,849,1,Evening,Wednesday,22
+T0313,C025,Eva Brown,Nissan Altima,2024-06-05 13:24:00,2024-06-05,Wednesday,Foam Wash,736,6,Afternoon,Wednesday,13
+T0314,C033,Alice Johnson,Toyota Camry,2025-05-08 12:48:00,2025-05-08,Thursday,Interior Wash,425,5,Afternoon,Thursday,12
+T0315,C008,Jack Young,Audi A4,2024-04-12 18:07:00,2024-04-12,Friday,Interior Wash,607,4,Evening,Friday,18
+T0316,C065,Alice Johnson,Toyota Camry,2024-11-15 11:04:00,2024-11-15,Friday,Foam Wash,675,11,Morning,Friday,11
+T0317,C091,Jack Young,Hyundai Elantra,2024-07-07 07:04:00,2024-07-07,Sunday,Full Service,1000,7,Morning,Sunday,7
+T0318,C046,Alice Johnson,BMW 3 Series,2024-03-28 16:42:00,2024-03-28,Thursday,Interior Wash,549,3,Afternoon,Thursday,16
+T0319,C095,Alice Johnson,Audi A4,2024-05-08 13:05:00,2024-05-08,Wednesday,Foam Wash,841,5,Afternoon,Wednesday,13
+T0320,C013,Henry White,Chevrolet Malibu,2024-08-12 08:19:00,2024-08-12,Monday,Interior Wash,554,8,Morning,Monday,8
+T0321,C052,Henry White,Kia Optima,2024-01-01 06:30:00,2024-01-01,Monday,Interior Wash,491,1,Morning,Monday,6
+T0322,C051,Isla Hall,Honda Civic,2024-09-30 18:26:00,2024-09-30,Monday,Foam Wash,862,9,Evening,Monday,18
+T0323,C026,David Garcia,Toyota Camry,2024-06-07 07:07:00,2024-06-07,Friday,Exterior Wash,534,6,Morning,Friday,7
+T0324,C014,Eva Brown,Audi A4,2024-06-08 16:27:00,2024-06-08,Saturday,Full Service,1000,6,Afternoon,Saturday,16
+T0325,C022,Grace Lee,BMW 3 Series,2024-05-01 08:21:00,2024-05-01,Wednesday,Interior Wash,682,5,Morning,Wednesday,8
+T0326,C011,Bob Smith,Nissan Altima,2025-03-12 10:16:00,2025-03-12,Wednesday,Exterior Wash,481,3,Morning,Wednesday,10
+T0327,C057,Eva Brown,Kia Optima,2024-05-14 13:13:00,2024-05-14,Tuesday,Full Service,1000,5,Afternoon,Tuesday,13
+T0328,C046,Alice Johnson,Ford Focus,2024-10-14 16:22:00,2024-10-14,Monday,Interior Wash,635,10,Afternoon,Monday,16
+T0329,C038,Frank Wilson,BMW 3 Series,2025-01-29 14:47:00,2025-01-29,Wednesday,Interior Wash,434,1,Afternoon,Wednesday,14
+T0330,C032,Henry White,Mazda 6,2025-03-16 08:03:00,2025-03-16,Sunday,Foam Wash,723,3,Morning,Sunday,8
+T0331,C090,Carol Davis,Toyota Camry,2024-12-07 14:32:00,2024-12-07,Saturday,Interior Wash,610,12,Afternoon,Saturday,14
+T0332,C036,David Garcia,Ford Focus,2024-07-01 06:04:00,2024-07-01,Monday,Foam Wash,851,7,Morning,Monday,6
+T0333,C040,Isla Hall,Ford Focus,2025-05-15 21:19:00,2025-05-15,Thursday,Exterior Wash,335,5,Evening,Thursday,21
+T0334,C069,Jack Young,Toyota Camry,2024-09-22 15:59:00,2024-09-22,Sunday,Full Service,1000,9,Afternoon,Sunday,15
+T0335,C011,Eva Brown,Nissan Altima,2024-02-12 12:38:00,2024-02-12,Monday,Interior Wash,636,2,Afternoon,Monday,12
+T0336,C007,Frank Wilson,Mazda 6,2024-09-09 11:08:00,2024-09-09,Monday,Interior Wash,657,9,Morning,Monday,11
+T0337,C001,Frank Wilson,Kia Optima,2025-01-08 08:03:00,2025-01-08,Wednesday,Exterior Wash,338,1,Morning,Wednesday,8
+T0338,C069,David Garcia,Hyundai Elantra,2024-10-21 10:19:00,2024-10-21,Monday,Interior Wash,655,10,Morning,Monday,10
+T0339,C076,Grace Lee,Toyota Camry,2024-03-11 06:17:00,2024-03-11,Monday,Foam Wash,705,3,Morning,Monday,6
+T0340,C085,Bob Smith,Mazda 6,2025-06-23 09:21:00,2025-06-23,Monday,Foam Wash,845,6,Morning,Monday,9
+T0341,C033,Isla Hall,Ford Focus,2024-09-23 14:50:00,2024-09-23,Monday,Foam Wash,611,9,Afternoon,Monday,14
+T0342,C072,Alice Johnson,Nissan Altima,2024-12-27 20:19:00,2024-12-27,Friday,Foam Wash,635,12,Evening,Friday,20
+T0343,C077,Alice Johnson,Hyundai Elantra,2025-02-04 06:14:00,2025-02-04,Tuesday,Full Service,1000,2,Morning,Tuesday,6
+T0344,C005,David Garcia,Mazda 6,2025-01-04 13:58:00,2025-01-04,Saturday,Exterior Wash,335,1,Afternoon,Saturday,13
+T0345,C048,Carol Davis,Toyota Camry,2024-11-13 06:00:00,2024-11-13,Wednesday,Exterior Wash,393,11,Morning,Wednesday,6
+T0346,C004,Henry White,Honda Civic,2025-05-18 15:53:00,2025-05-18,Sunday,Interior Wash,697,5,Afternoon,Sunday,15
+T0347,C052,Carol Davis,Ford Focus,2024-09-27 12:24:00,2024-09-27,Friday,Interior Wash,533,9,Afternoon,Friday,12
+T0348,C053,Bob Smith,Kia Optima,2024-02-18 10:41:00,2024-02-18,Sunday,Full Service,1000,2,Morning,Sunday,10
+T0349,C096,David Garcia,Toyota Camry,2024-10-17 15:16:00,2024-10-17,Thursday,Full Service,1000,10,Afternoon,Thursday,15
+T0350,C053,Frank Wilson,Honda Civic,2024-04-22 19:12:00,2024-04-22,Monday,Interior Wash,586,4,Evening,Monday,19
+T0351,C053,David Garcia,Ford Focus,2025-05-26 22:40:00,2025-05-26,Monday,Exterior Wash,501,5,Evening,Monday,22
+T0352,C094,Isla Hall,Honda Civic,2025-06-19 13:49:00,2025-06-19,Thursday,Foam Wash,860,6,Afternoon,Thursday,13
+T0353,C063,Jack Young,Toyota Camry,2025-01-06 11:12:00,2025-01-06,Monday,Interior Wash,440,1,Morning,Monday,11
+T0354,C066,Grace Lee,Mazda 6,2024-03-25 09:44:00,2024-03-25,Monday,Interior Wash,599,3,Morning,Monday,9
+T0355,C040,Carol Davis,Honda Civic,2024-06-17 10:22:00,2024-06-17,Monday,Exterior Wash,433,6,Morning,Monday,10
+T0356,C016,Isla Hall,Toyota Camry,2024-09-20 10:12:00,2024-09-20,Friday,Foam Wash,722,9,Morning,Friday,10
+T0357,C058,Jack Young,Kia Optima,2024-08-28 20:20:00,2024-08-28,Wednesday,Full Service,1000,8,Evening,Wednesday,20
+T0358,C016,Eva Brown,Toyota Camry,2025-05-07 18:51:00,2025-05-07,Wednesday,Exterior Wash,425,5,Evening,Wednesday,18
+T0359,C043,Grace Lee,BMW 3 Series,2024-06-30 14:16:00,2024-06-30,Sunday,Exterior Wash,415,6,Afternoon,Sunday,14
+T0360,C066,Henry White,Audi A4,2024-08-26 06:23:00,2024-08-26,Monday,Foam Wash,753,8,Morning,Monday,6
+T0361,C033,Isla Hall,Mazda 6,2024-02-24 14:58:00,2024-02-24,Saturday,Foam Wash,821,2,Afternoon,Saturday,14
+T0362,C052,Eva Brown,Chevrolet Malibu,2024-05-14 10:09:00,2024-05-14,Tuesday,Foam Wash,856,5,Morning,Tuesday,10
+T0363,C092,Carol Davis,Toyota Camry,2024-04-03 18:24:00,2024-04-03,Wednesday,Foam Wash,889,4,Evening,Wednesday,18
+T0364,C023,Eva Brown,Honda Civic,2024-12-04 15:18:00,2024-12-04,Wednesday,Full Service,1000,12,Afternoon,Wednesday,15
+T0365,C074,Jack Young,Ford Focus,2024-03-31 15:33:00,2024-03-31,Sunday,Exterior Wash,500,3,Afternoon,Sunday,15
+T0366,C082,Grace Lee,Chevrolet Malibu,2024-10-17 16:51:00,2024-10-17,Thursday,Foam Wash,687,10,Afternoon,Thursday,16
+T0367,C097,Carol Davis,Honda Civic,2024-03-19 09:39:00,2024-03-19,Tuesday,Exterior Wash,327,3,Morning,Tuesday,9
+T0368,C046,Eva Brown,Kia Optima,2024-10-05 20:39:00,2024-10-05,Saturday,Foam Wash,675,10,Evening,Saturday,20
+T0369,C053,Isla Hall,Nissan Altima,2024-04-10 19:05:00,2024-04-10,Wednesday,Interior Wash,619,4,Evening,Wednesday,19
+T0370,C028,Isla Hall,Toyota Camry,2025-05-02 06:00:00,2025-05-02,Friday,Foam Wash,636,5,Morning,Friday,6
+T0371,C088,Frank Wilson,Mazda 6,2025-04-26 10:48:00,2025-04-26,Saturday,Foam Wash,680,4,Morning,Saturday,10
+T0372,C031,Eva Brown,Chevrolet Malibu,2024-05-01 18:01:00,2024-05-01,Wednesday,Exterior Wash,376,5,Evening,Wednesday,18
+T0373,C079,Eva Brown,Honda Civic,2025-04-27 20:40:00,2025-04-27,Sunday,Exterior Wash,523,4,Evening,Sunday,20
+T0374,C010,Carol Davis,Ford Focus,2024-05-10 09:01:00,2024-05-10,Friday,Foam Wash,802,5,Morning,Friday,9
+T0375,C005,Isla Hall,Ford Focus,2025-01-13 07:45:00,2025-01-13,Monday,Exterior Wash,425,1,Morning,Monday,7
+T0376,C098,Henry White,Ford Focus,2024-05-07 22:39:00,2024-05-07,Tuesday,Exterior Wash,490,5,Evening,Tuesday,22
+T0377,C084,Bob Smith,Ford Focus,2024-09-08 11:45:00,2024-09-08,Sunday,Full Service,1000,9,Morning,Sunday,11
+T0378,C063,Bob Smith,Kia Optima,2024-11-18 20:27:00,2024-11-18,Monday,Full Service,1000,11,Evening,Monday,20
+T0379,C076,Henry White,Chevrolet Malibu,2024-08-14 19:44:00,2024-08-14,Wednesday,Exterior Wash,341,8,Evening,Wednesday,19
+T0380,C076,Eva Brown,Honda Civic,2025-02-05 12:02:00,2025-02-05,Wednesday,Exterior Wash,319,2,Afternoon,Wednesday,12
+T0381,C078,Carol Davis,Kia Optima,2025-06-13 17:47:00,2025-06-13,Friday,Exterior Wash,329,6,Afternoon,Friday,17
+T0382,C031,Grace Lee,Kia Optima,2024-06-30 18:21:00,2024-06-30,Sunday,Exterior Wash,597,6,Evening,Sunday,18
+T0383,C072,Henry White,Chevrolet Malibu,2024-04-06 12:57:00,2024-04-06,Saturday,Exterior Wash,445,4,Afternoon,Saturday,12
+T0384,C068,Jack Young,Hyundai Elantra,2025-04-18 15:11:00,2025-04-18,Friday,Full Service,1000,4,Afternoon,Friday,15
+T0385,C018,Jack Young,Nissan Altima,2024-07-28 16:40:00,2024-07-28,Sunday,Interior Wash,605,7,Afternoon,Sunday,16
+T0386,C058,Eva Brown,Ford Focus,2024-12-04 21:52:00,2024-12-04,Wednesday,Foam Wash,624,12,Evening,Wednesday,21
+T0387,C083,Grace Lee,Kia Optima,2024-03-21 15:37:00,2024-03-21,Thursday,Full Service,1000,3,Afternoon,Thursday,15
+T0388,C068,Alice Johnson,Ford Focus,2025-01-21 18:53:00,2025-01-21,Tuesday,Exterior Wash,426,1,Evening,Tuesday,18
+T0389,C087,Jack Young,Toyota Camry,2025-06-30 15:11:00,2025-06-30,Monday,Exterior Wash,514,6,Afternoon,Monday,15
+T0390,C015,Jack Young,Toyota Camry,2025-02-21 08:44:00,2025-02-21,Friday,Full Service,1000,2,Morning,Friday,8
+T0391,C008,Frank Wilson,Kia Optima,2024-04-17 11:11:00,2024-04-17,Wednesday,Foam Wash,672,4,Morning,Wednesday,11
+T0392,C001,Eva Brown,Toyota Camry,2025-05-06 09:29:00,2025-05-06,Tuesday,Exterior Wash,583,5,Morning,Tuesday,9
+T0393,C053,Frank Wilson,Audi A4,2025-06-03 10:04:00,2025-06-03,Tuesday,Exterior Wash,407,6,Morning,Tuesday,10
+T0394,C079,Frank Wilson,Hyundai Elantra,2024-10-18 17:17:00,2024-10-18,Friday,Interior Wash,422,10,Afternoon,Friday,17
+T0395,C097,Frank Wilson,Audi A4,2024-08-30 15:42:00,2024-08-30,Friday,Full Service,1000,8,Afternoon,Friday,15
+T0396,C040,Frank Wilson,Toyota Camry,2024-04-01 14:25:00,2024-04-01,Monday,Full Service,1000,4,Afternoon,Monday,14
+T0397,C095,Frank Wilson,BMW 3 Series,2025-02-28 11:23:00,2025-02-28,Friday,Interior Wash,666,2,Morning,Friday,11
+T0398,C029,Jack Young,Mazda 6,2024-07-18 14:41:00,2024-07-18,Thursday,Exterior Wash,384,7,Afternoon,Thursday,14
+T0399,C076,Alice Johnson,Honda Civic,2024-09-06 19:12:00,2024-09-06,Friday,Foam Wash,646,9,Evening,Friday,19
+T0400,C050,Alice Johnson,Audi A4,2025-03-04 08:29:00,2025-03-04,Tuesday,Foam Wash,789,3,Morning,Tuesday,8
+T0401,C053,Isla Hall,Kia Optima,2024-09-19 09:45:00,2024-09-19,Thursday,Foam Wash,697,9,Morning,Thursday,9
+T0402,C004,Eva Brown,Ford Focus,2024-11-23 12:20:00,2024-11-23,Saturday,Full Service,1000,11,Afternoon,Saturday,12
+T0403,C075,Alice Johnson,Ford Focus,2024-08-11 19:09:00,2024-08-11,Sunday,Foam Wash,706,8,Evening,Sunday,19
+T0404,C013,Jack Young,BMW 3 Series,2025-02-13 22:26:00,2025-02-13,Thursday,Interior Wash,617,2,Evening,Thursday,22
+T0405,C099,Bob Smith,Ford Focus,2024-01-03 20:49:00,2024-01-03,Wednesday,Foam Wash,611,1,Evening,Wednesday,20
+T0406,C017,Isla Hall,Kia Optima,2025-04-25 12:59:00,2025-04-25,Friday,Foam Wash,793,4,Afternoon,Friday,12
+T0407,C087,Jack Young,Audi A4,2025-05-15 10:44:00,2025-05-15,Thursday,Full Service,1000,5,Morning,Thursday,10
+T0408,C010,Carol Davis,Mazda 6,2024-10-06 21:09:00,2024-10-06,Sunday,Full Service,1000,10,Evening,Sunday,21
+T0409,C003,Henry White,Ford Focus,2024-06-21 10:26:00,2024-06-21,Friday,Exterior Wash,309,6,Morning,Friday,10
+T0410,C069,Carol Davis,Honda Civic,2024-10-18 17:50:00,2024-10-18,Friday,Foam Wash,877,10,Afternoon,Friday,17
+T0411,C058,Eva Brown,BMW 3 Series,2024-03-24 15:17:00,2024-03-24,Sunday,Exterior Wash,512,3,Afternoon,Sunday,15
+T0412,C052,Bob Smith,Ford Focus,2024-07-12 09:25:00,2024-07-12,Friday,Interior Wash,420,7,Morning,Friday,9
+T0413,C037,Eva Brown,Honda Civic,2025-06-15 12:31:00,2025-06-15,Sunday,Full Service,1000,6,Afternoon,Sunday,12
+T0414,C097,Alice Johnson,Kia Optima,2024-09-20 12:42:00,2024-09-20,Friday,Exterior Wash,340,9,Afternoon,Friday,12
+T0415,C013,Grace Lee,Chevrolet Malibu,2024-09-04 08:30:00,2024-09-04,Wednesday,Interior Wash,436,9,Morning,Wednesday,8
+T0416,C050,Eva Brown,Audi A4,2024-04-17 09:31:00,2024-04-17,Wednesday,Foam Wash,770,4,Morning,Wednesday,9
+T0417,C027,Eva Brown,Chevrolet Malibu,2025-06-21 20:59:00,2025-06-21,Saturday,Interior Wash,620,6,Evening,Saturday,20
+T0418,C043,Bob Smith,Ford Focus,2025-02-15 17:44:00,2025-02-15,Saturday,Full Service,1000,2,Afternoon,Saturday,17
+T0419,C055,Isla Hall,Nissan Altima,2024-09-29 15:05:00,2024-09-29,Sunday,Full Service,1000,9,Afternoon,Sunday,15
+T0420,C007,Grace Lee,Chevrolet Malibu,2025-03-06 09:54:00,2025-03-06,Thursday,Interior Wash,605,3,Morning,Thursday,9
+T0421,C009,David Garcia,Honda Civic,2024-10-28 08:58:00,2024-10-28,Monday,Foam Wash,893,10,Morning,Monday,8
+T0422,C086,Frank Wilson,BMW 3 Series,2024-12-09 18:34:00,2024-12-09,Monday,Foam Wash,774,12,Evening,Monday,18
+T0423,C037,Bob Smith,Honda Civic,2025-03-07 18:08:00,2025-03-07,Friday,Foam Wash,750,3,Evening,Friday,18
+T0424,C066,Jack Young,Hyundai Elantra,2024-06-15 08:22:00,2024-06-15,Saturday,Interior Wash,594,6,Morning,Saturday,8
+T0425,C028,Frank Wilson,Toyota Camry,2024-04-19 19:01:00,2024-04-19,Friday,Exterior Wash,354,4,Evening,Friday,19
+T0426,C015,Eva Brown,Toyota Camry,2024-12-09 10:14:00,2024-12-09,Monday,Exterior Wash,559,12,Morning,Monday,10
+T0427,C084,David Garcia,Toyota Camry,2025-03-07 06:15:00,2025-03-07,Friday,Interior Wash,477,3,Morning,Friday,6
+T0428,C017,Frank Wilson,Honda Civic,2024-03-31 11:19:00,2024-03-31,Sunday,Exterior Wash,555,3,Morning,Sunday,11
+T0429,C049,Bob Smith,Nissan Altima,2024-09-24 08:01:00,2024-09-24,Tuesday,Interior Wash,528,9,Morning,Tuesday,8
+T0430,C059,Frank Wilson,Kia Optima,2025-06-26 20:08:00,2025-06-26,Thursday,Full Service,1000,6,Evening,Thursday,20
+T0431,C052,Isla Hall,Mazda 6,2024-07-17 11:53:00,2024-07-17,Wednesday,Exterior Wash,552,7,Morning,Wednesday,11
+T0432,C090,Isla Hall,Honda Civic,2025-05-13 17:25:00,2025-05-13,Tuesday,Foam Wash,768,5,Afternoon,Tuesday,17
+T0433,C088,David Garcia,BMW 3 Series,2024-06-18 13:06:00,2024-06-18,Tuesday,Exterior Wash,448,6,Afternoon,Tuesday,13
+T0434,C042,Jack Young,Honda Civic,2024-06-05 13:40:00,2024-06-05,Wednesday,Full Service,1000,6,Afternoon,Wednesday,13
+T0435,C020,Grace Lee,Ford Focus,2025-05-18 06:48:00,2025-05-18,Sunday,Exterior Wash,347,5,Morning,Sunday,6
+T0436,C100,Henry White,Honda Civic,2025-05-21 14:38:00,2025-05-21,Wednesday,Interior Wash,565,5,Afternoon,Wednesday,14
+T0437,C079,Frank Wilson,Kia Optima,2025-05-28 10:17:00,2025-05-28,Wednesday,Foam Wash,838,5,Morning,Wednesday,10
+T0438,C077,Frank Wilson,Hyundai Elantra,2024-11-09 07:03:00,2024-11-09,Saturday,Full Service,1000,11,Morning,Saturday,7
+T0439,C079,Carol Davis,Chevrolet Malibu,2025-05-14 17:41:00,2025-05-14,Wednesday,Foam Wash,671,5,Afternoon,Wednesday,17
+T0440,C010,David Garcia,BMW 3 Series,2024-05-29 18:17:00,2024-05-29,Wednesday,Interior Wash,512,5,Evening,Wednesday,18
+T0441,C081,Jack Young,Ford Focus,2024-06-01 20:20:00,2024-06-01,Saturday,Interior Wash,645,6,Evening,Saturday,20
+T0442,C051,Carol Davis,BMW 3 Series,2024-12-11 19:15:00,2024-12-11,Wednesday,Interior Wash,609,12,Evening,Wednesday,19
+T0443,C026,Henry White,Chevrolet Malibu,2024-11-24 13:29:00,2024-11-24,Sunday,Foam Wash,780,11,Afternoon,Sunday,13
+T0444,C069,Jack Young,Hyundai Elantra,2025-03-26 20:23:00,2025-03-26,Wednesday,Full Service,1000,3,Evening,Wednesday,20
+T0445,C070,Alice Johnson,Honda Civic,2025-01-22 20:53:00,2025-01-22,Wednesday,Exterior Wash,477,1,Evening,Wednesday,20
+T0446,C093,Frank Wilson,Toyota Camry,2025-05-27 16:22:00,2025-05-27,Tuesday,Full Service,1000,5,Afternoon,Tuesday,16
+T0447,C007,Bob Smith,Hyundai Elantra,2025-06-23 09:13:00,2025-06-23,Monday,Foam Wash,654,6,Morning,Monday,9
+T0448,C070,Bob Smith,Mazda 6,2024-03-19 19:07:00,2024-03-19,Tuesday,Interior Wash,547,3,Evening,Tuesday,19
+T0449,C080,David Garcia,Mazda 6,2025-06-19 06:46:00,2025-06-19,Thursday,Exterior Wash,536,6,Morning,Thursday,6
+T0450,C020,Jack Young,Honda Civic,2024-08-04 15:04:00,2024-08-04,Sunday,Exterior Wash,485,8,Afternoon,Sunday,15
+T0451,C031,Bob Smith,Honda Civic,2025-05-02 09:21:00,2025-05-02,Friday,Exterior Wash,391,5,Morning,Friday,9
+T0452,C075,Eva Brown,BMW 3 Series,2024-10-03 17:54:00,2024-10-03,Thursday,Exterior Wash,511,10,Afternoon,Thursday,17
+T0453,C055,Isla Hall,Chevrolet Malibu,2024-07-02 21:52:00,2024-07-02,Tuesday,Exterior Wash,552,7,Evening,Tuesday,21
+T0454,C048,Carol Davis,Ford Focus,2025-05-08 17:29:00,2025-05-08,Thursday,Exterior Wash,336,5,Afternoon,Thursday,17
+T0455,C065,Henry White,Honda Civic,2024-01-05 20:55:00,2024-01-05,Friday,Interior Wash,666,1,Evening,Friday,20
+T0456,C024,Carol Davis,Ford Focus,2024-02-09 18:15:00,2024-02-09,Friday,Interior Wash,582,2,Evening,Friday,18
+T0457,C040,Carol Davis,Ford Focus,2025-01-25 14:09:00,2025-01-25,Saturday,Exterior Wash,445,1,Afternoon,Saturday,14
+T0458,C013,Frank Wilson,Kia Optima,2025-01-11 12:07:00,2025-01-11,Saturday,Foam Wash,805,1,Afternoon,Saturday,12
+T0459,C047,Jack Young,Nissan Altima,2024-11-19 18:28:00,2024-11-19,Tuesday,Interior Wash,549,11,Evening,Tuesday,18
+T0460,C087,Grace Lee,Ford Focus,2024-09-15 19:45:00,2024-09-15,Sunday,Interior Wash,646,9,Evening,Sunday,19
+T0461,C068,Jack Young,Honda Civic,2024-01-16 21:50:00,2024-01-16,Tuesday,Full Service,1000,1,Evening,Tuesday,21
+T0462,C047,Eva Brown,Toyota Camry,2024-08-10 22:07:00,2024-08-10,Saturday,Full Service,1000,8,Evening,Saturday,22
+T0463,C005,Carol Davis,Honda Civic,2025-06-14 15:05:00,2025-06-14,Saturday,Exterior Wash,547,6,Afternoon,Saturday,15
+T0464,C052,Bob Smith,Chevrolet Malibu,2024-03-10 16:15:00,2024-03-10,Sunday,Foam Wash,673,3,Afternoon,Sunday,16
+T0465,C038,Bob Smith,Chevrolet Malibu,2025-01-22 16:43:00,2025-01-22,Wednesday,Foam Wash,693,1,Afternoon,Wednesday,16
+T0466,C085,Eva Brown,Mazda 6,2024-04-15 22:38:00,2024-04-15,Monday,Full Service,1000,4,Evening,Monday,22
+T0467,C012,Bob Smith,Ford Focus,2024-06-23 06:04:00,2024-06-23,Sunday,Exterior Wash,599,6,Morning,Sunday,6
+T0468,C028,Grace Lee,Honda Civic,2025-04-29 10:32:00,2025-04-29,Tuesday,Exterior Wash,457,4,Morning,Tuesday,10
+T0469,C083,Henry White,Nissan Altima,2025-03-15 07:04:00,2025-03-15,Saturday,Exterior Wash,488,3,Morning,Saturday,7
+T0470,C032,Grace Lee,Ford Focus,2025-03-06 14:26:00,2025-03-06,Thursday,Foam Wash,715,3,Afternoon,Thursday,14
+T0471,C057,Grace Lee,Honda Civic,2024-12-14 12:30:00,2024-12-14,Saturday,Interior Wash,436,12,Afternoon,Saturday,12
+T0472,C069,Alice Johnson,Ford Focus,2025-06-19 17:20:00,2025-06-19,Thursday,Foam Wash,785,6,Afternoon,Thursday,17
+T0473,C030,David Garcia,Chevrolet Malibu,2025-04-22 11:46:00,2025-04-22,Tuesday,Full Service,1000,4,Morning,Tuesday,11
+T0474,C081,Henry White,Honda Civic,2025-06-11 20:16:00,2025-06-11,Wednesday,Interior Wash,460,6,Evening,Wednesday,20
+T0475,C047,David Garcia,Toyota Camry,2024-02-22 07:44:00,2024-02-22,Thursday,Interior Wash,497,2,Morning,Thursday,7
+T0476,C084,Bob Smith,Toyota Camry,2024-08-03 09:35:00,2024-08-03,Saturday,Full Service,1000,8,Morning,Saturday,9
+T0477,C089,Grace Lee,Mazda 6,2025-05-02 06:25:00,2025-05-02,Friday,Exterior Wash,485,5,Morning,Friday,6
+T0478,C013,Isla Hall,Mazda 6,2024-07-12 18:51:00,2024-07-12,Friday,Exterior Wash,377,7,Evening,Friday,18
+T0479,C037,David Garcia,Ford Focus,2024-12-04 10:17:00,2024-12-04,Wednesday,Full Service,1000,12,Morning,Wednesday,10
+T0480,C037,David Garcia,Audi A4,2024-07-02 22:33:00,2024-07-02,Tuesday,Interior Wash,649,7,Evening,Tuesday,22
+T0481,C006,Alice Johnson,Hyundai Elantra,2025-02-12 12:50:00,2025-02-12,Wednesday,Foam Wash,805,2,Afternoon,Wednesday,12
+T0482,C098,Henry White,Nissan Altima,2024-06-28 13:22:00,2024-06-28,Friday,Full Service,1000,6,Afternoon,Friday,13
+T0483,C091,Grace Lee,Honda Civic,2025-04-26 16:19:00,2025-04-26,Saturday,Interior Wash,484,4,Afternoon,Saturday,16
+T0484,C016,Alice Johnson,Audi A4,2025-02-07 12:18:00,2025-02-07,Friday,Foam Wash,821,2,Afternoon,Friday,12
+T0485,C033,Bob Smith,Kia Optima,2025-06-01 15:22:00,2025-06-01,Sunday,Interior Wash,614,6,Afternoon,Sunday,15
+T0486,C003,Isla Hall,Hyundai Elantra,2024-08-27 08:50:00,2024-08-27,Tuesday,Full Service,1000,8,Morning,Tuesday,8
+T0487,C001,Bob Smith,Mazda 6,2024-05-19 10:10:00,2024-05-19,Sunday,Interior Wash,558,5,Morning,Sunday,10
+T0488,C100,Isla Hall,Ford Focus,2024-11-30 20:32:00,2024-11-30,Saturday,Interior Wash,550,11,Evening,Saturday,20
+T0489,C037,Eva Brown,Mazda 6,2024-05-12 07:57:00,2024-05-12,Sunday,Interior Wash,439,5,Morning,Sunday,7
+T0490,C083,Bob Smith,Audi A4,2024-10-23 12:04:00,2024-10-23,Wednesday,Exterior Wash,558,10,Afternoon,Wednesday,12
+T0491,C002,Frank Wilson,Audi A4,2024-10-20 21:57:00,2024-10-20,Sunday,Interior Wash,450,10,Evening,Sunday,21
+T0492,C070,Alice Johnson,Ford Focus,2024-06-29 12:33:00,2024-06-29,Saturday,Interior Wash,524,6,Afternoon,Saturday,12
+T0493,C001,Eva Brown,Kia Optima,2024-06-15 21:26:00,2024-06-15,Saturday,Exterior Wash,362,6,Evening,Saturday,21
+T0494,C061,Carol Davis,BMW 3 Series,2025-03-26 14:26:00,2025-03-26,Wednesday,Foam Wash,760,3,Afternoon,Wednesday,14
+T0495,C019,Grace Lee,Nissan Altima,2024-04-29 22:37:00,2024-04-29,Monday,Exterior Wash,392,4,Evening,Monday,22
+T0496,C100,Grace Lee,Ford Focus,2024-08-29 16:00:00,2024-08-29,Thursday,Exterior Wash,600,8,Afternoon,Thursday,16
+T0497,C024,Jack Young,BMW 3 Series,2025-06-25 14:19:00,2025-06-25,Wednesday,Interior Wash,655,6,Afternoon,Wednesday,14
+T0498,C039,Grace Lee,Honda Civic,2025-06-02 21:28:00,2025-06-02,Monday,Foam Wash,840,6,Evening,Monday,21
+T0499,C040,Carol Davis,Honda Civic,2025-01-05 20:40:00,2025-01-05,Sunday,Interior Wash,676,1,Evening,Sunday,20
+T0500,C009,Henry White,Hyundai Elantra,2024-11-08 17:38:00,2024-11-08,Friday,Foam Wash,810,11,Afternoon,Friday,17
