@@ -1,56 +1,63 @@
 import pandas as pd
-from analysis import (
-    analyze_churn_rate,
-    recommend_service_packages,
-    analyze_seasonality,
-    track_carbon_footprint,
-    identify_low_sales_month,
-    rank_services
-)
-from visualization import (
-    plot_churn_rate,
-    plot_service_recommendations,
-    plot_seasonality,
-    plot_carbon_footprint,
-    plot_low_sales_month,
-    plot_service_ranking
-)
+from analysis import CarWashAnalyzer
+from visualization import CarWashVisualizer
 
-# Updated file path
+# Dataset path
 DATA_PATH = r"C:\LEARNING\sic_pu_june25\hackathon\car_wash data set\car_wash_final_dataset_with_date (1).csv"
 
-def preprocess_data():
-    df = pd.read_csv(DATA_PATH, parse_dates=["Transaction Date & Time"])
-    df['Month'] = df['Transaction Date & Time'].dt.month
-    df['DayOfWeek'] = df['Transaction Date & Time'].dt.day_name()
-    df['Hour'] = df['Transaction Date & Time'].dt.hour
-    df['Time Slot'] = df['Hour'].apply(
-        lambda h: "Night" if h < 6 else "Morning" if h < 12 else "Afternoon" if h < 18 else "Evening"
-    )
-    df.to_csv(DATA_PATH, index=False)
-    return df
+class CarWashApp:
+    def __init__(self):
+        self.df = None
+        self.analyzer = None
+        self.visualizer = CarWashVisualizer()
 
-def main():
-    print(" Preprocessing data...")
-    df = preprocess_data()
+    def preprocess_data(self):
+        print("\nPreprocessing data...")
+        self.df = pd.read_csv(DATA_PATH, parse_dates=["Transaction Date & Time"])
+        self.df['Month'] = self.df['Transaction Date & Time'].dt.month_name()
+        self.df['DayOfWeek'] = self.df['Transaction Date & Time'].dt.day_name()
+        self.df['Hour'] = self.df['Transaction Date & Time'].dt.hour
+        self.df['Time Slot'] = self.df['Hour'].apply(
+            lambda h: "Night" if h < 6 else "Morning" if h < 12 else "Afternoon" if h < 18 else "Evening"
+        )
+        self.df.to_csv(DATA_PATH, index=False)
+        self.analyzer = CarWashAnalyzer(self.df)
+        print("Preprocessing complete.")
 
-    print(" Running analysis...")
-    analyze_churn_rate(df)
-    recommend_service_packages(df)
-    analyze_seasonality(df)
-    track_carbon_footprint(df)
-    identify_low_sales_month(df)
-    rank_services(df)
+    def show_menu(self):
+        while True:
+            print("\n--- Car Wash Analysis Menu ---")
+            print("1. Analyze Customer Churn")
+            print("2. Recommend Service Packages")
+            print("3. Analyze Seasonality")
+            print("4. Track Carbon Footprint")
+            print("5. Identify Low-Sales Month")
+            print("6. Rank Services")
+            print("7. Show All Visualizations")
+            print("0. Exit")
+            choice = input("Enter your choice: ")
 
-    print(" Generating visualizations...")
-    plot_churn_rate()
-    plot_service_recommendations()
-    plot_seasonality()
-    plot_carbon_footprint()
-    plot_low_sales_month()
-    plot_service_ranking()
-
-    print(" All tasks completed.")
+            if choice == "1":
+                self.analyzer.analyze_churn_rate()
+            elif choice == "2":
+                self.analyzer.recommend_service_packages()
+            elif choice == "3":
+                self.analyzer.analyze_seasonality()
+            elif choice == "4":
+                self.analyzer.track_carbon_footprint()
+            elif choice == "5":
+                self.analyzer.identify_low_sales_month()
+            elif choice == "6":
+                self.analyzer.rank_services()
+            elif choice == "7":
+                self.visualizer.show_all_plots()
+            elif choice == "0":
+                print("Exiting...")
+                break
+            else:
+                print("Invalid choice. Please try again.")
 
 if __name__ == "__main__":
-    main()
+    app = CarWashApp()
+    app.preprocess_data()
+    app.show_menu()
