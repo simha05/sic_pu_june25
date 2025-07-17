@@ -1,0 +1,23 @@
+import sys
+from collections import Counter
+
+def main():
+    data = sys.stdin.read().strip().split()
+    it = iter(data)
+    
+    n = int(next(it))
+    arr = [int(next(it)) for _ in range(n)]
+    
+    m = int(next(it))
+    brr = [int(next(it)) for _ in range(m)]
+    
+    cnt_arr = Counter(arr)
+    cnt_brr = Counter(brr)
+    
+    missing = [num for num in cnt_brr if cnt_brr[num] > cnt_arr.get(num, 0)]
+    
+    missing.sort()
+    print(*missing)
+
+if __name__ == "__main__":
+    main()
