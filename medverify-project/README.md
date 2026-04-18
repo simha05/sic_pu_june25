@@ -32,3 +32,8 @@ MedVerify is an AI-based system that detects fake medical certificates using OCR
 - Add database
 - Improve AI accuracy
 - Deploy on cloud
+  
+##screenshots
+![Login](login.png)
+![dashboard](dashboard.png)
+![upload](upload.png)
