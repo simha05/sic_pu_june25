@@ -1,33 +1,34 @@
-# MedVerify Frontend
+# 🏥 MedVerify — AI Medical Certificate Verification
 
-A pure HTML/CSS/JS frontend — no build step required.
+## 🚀 Overview
+MedVerify is an AI-based system that detects fake medical certificates using OCR and Google Gemini AI.
 
-## Files
+## 🧠 Tech Stack
+- Frontend: HTML, CSS, JavaScript
+- Backend: FastAPI (Python)
+- AI: Google Gemini API
+- OCR: Tesseract
 
-- `index.html` — App shell and all HTML markup
-- `style.css`  — Full dark theme styles
-- `app.js`     — All logic: auth, file upload, API calls, rendering
+## ⚙️ Features
+- Faculty login system
+- Upload medical certificates
+- AI fraud detection
+- Risk scoring (0–100)
+- Audit log system
 
-## Setup
+## 🧪 How to Run
+1. Install dependencies:
+   pip install -r requirements.txt
 
-1. Open `app.js` and set the backend URL on line 2:
-   ```js
-   const API_BASE = "http://localhost:8000"; // or your deployed backend URL
-   ```
+2. Run backend:
+   uvicorn server:app --reload
 
-2. Open `index.html` directly in a browser **or** serve it with any static server:
-   ```bash
-   # Python
-   python -m http.server 3000
+3. Open index.html in browser
 
-   # Node (npx)
-   npx serve .
-   ```
+## 🔐 Demo Login
+- faculty@hospital.com / medverify2025
 
-3. Navigate to `http://localhost:3000`
-
-## Demo Credentials
-| Email                    | Password       |
-|--------------------------|----------------|
-| faculty@hospital.com     | medverify2025  |
-| admin@medverify.com      | admin123       |
+## 📌 Future Improvements
+- Add database
+- Improve AI accuracy
+- Deploy on cloud
