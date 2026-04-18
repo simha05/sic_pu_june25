@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>MedVerify — AI Document Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="orb orb1"></div>
+<div class="orb orb2"></div>
+<div class="orb orb3"></div>
+
+<div class="app">
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <div class="logo-badge">🏥</div>
+      MedVerify
+    </div>
+    <div class="header-right">
+      <span class="tag">v2.0</span>
+      <div class="faculty-badge" id="facultyBadge" style="display:none">
+        <div class="faculty-avatar" id="facultyAvatar">DR</div>
+        <div class="faculty-info">
+          <div class="faculty-name" id="facultyName">Dr. Faculty</div>
+          <div class="faculty-dept" id="facultyDept">Department</div>
+        </div>
+      </div>
+      <button class="btn-logout" id="btnLogout" style="display:none" onclick="logout()">Logout</button>
+    </div>
+  </header>
+
+  <!-- LOGIN PAGE -->
+  <div class="page active" id="pageLogin">
+    <div class="login-page">
+      <div class="login-card">
+        <div class="login-inner">
+          <div class="login-icon">🔬</div>
+          <div class="login-title">Faculty Login</div>
+          <div class="login-sub">Secure access to MedVerify AI document analysis system.</div>
+          <div class="login-error" id="loginError"></div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input class="input" type="email" id="loginEmail" placeholder="faculty@hospital.com" autocomplete="username"/>
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <div class="input-wrap">
+              <input class="input" type="password" id="loginPass" placeholder="••••••••••" autocomplete="current-password"/>
+              <button class="show-btn" onclick="togglePass()">SHOW</button>
+            </div>
+          </div>
+          <button class="btn-primary" id="btnLogin" onclick="doLogin()">Sign In →</button>
+          <div class="demo-box">
+            <div class="demo-label">Demo Credentials</div>
+            <div class="demo-row"><span>Faculty</span><code>faculty@hospital.com / medverify2025</code></div>
+            <div class="demo-row"><span>Admin</span><code>admin@medverify.com / admin123</code></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DASHBOARD PAGE -->
+  <div class="page" id="pageDashboard">
+    <div class="dashboard">
+
+      <!-- Stats -->
+      <div class="section-title">Overview</div>
+      <div class="stats-row">
+        <div class="stat-card c-accent">
+          <div class="stat-icon">📄</div>
+          <div class="stat-val" id="statTotal">0</div>
+          <div class="stat-lbl">Total Analyzed</div>
+        </div>
+        <div class="stat-card c-red">
+          <div class="stat-icon">🚨</div>
+          <div class="stat-val" id="statFlagged">0</div>
+          <div class="stat-lbl">Flagged High Risk</div>
+        </div>
+        <div class="stat-card c-green">
+          <div class="stat-icon">✅</div>
+          <div class="stat-val" id="statApproved">0</div>
+          <div class="stat-lbl">Approved Low Risk</div>
+        </div>
+        <div class="stat-card c-yellow">
+          <div class="stat-icon">📊</div>
+          <div class="stat-val" id="statAvg">—</div>
+          <div class="stat-lbl">Avg Risk Score</div>
+        </div>
+      </div>
+
+      <!-- Upload Card -->
+      <div class="upload-card">
+        <div class="upload-card-title">Analyze Certificate</div>
+        <div class="upload-card-sub">Upload a medical certificate for AI-powered fraud detection and validation.</div>
+
+        <div class="student-row">
+          <div>
+            <label>Student Name</label>
+            <input class="input-sm" type="text" id="studentName" placeholder="Full name"/>
+          </div>
+          <div>
+            <label>Student ID / Roll No.</label>
+            <input class="input-sm" type="text" id="studentId" placeholder="e.g. 21BM0042"/>
+          </div>
+        </div>
+
+        <div class="error-box" id="errorBox"></div>
+
+        <div class="dropzone" id="dropzone"
+             onclick="document.getElementById('fileInput').click()"
+             ondragover="handleDragOver(event)"
+             ondragleave="handleDragLeave(event)"
+             ondrop="handleDrop(event)">
+          <span class="dropzone-icon" id="dropIcon">📎</span>
+          <div class="dropzone-title" id="dropTitle">Drop certificate here</div>
+          <div class="dropzone-sub" id="dropSub">or click to browse files</div>
+          <div class="dropzone-formats">
+            <span class="fmt-badge">JPG</span>
+            <span class="fmt-badge">PNG</span>
+            <span class="fmt-badge">WEBP</span>
+            <span class="fmt-badge">PDF</span>
+          </div>
+        </div>
+        <input type="file" id="fileInput" accept="image/*,.pdf" style="display:none" onchange="handleFileSelect(event)"/>
+
+        <button class="btn-analyse" id="btnAnalyse" onclick="startAnalysis()">
+          🔍 Analyse Certificate
+        </button>
+
+        <!-- What we check -->
+        <div class="checks-grid">
+          <div class="check-block">
+            <div class="check-block-title">Document Checks</div>
+            <div class="check-item"><span>◆</span> Doctor registration number</div>
+            <div class="check-item"><span>◆</span> Hospital/clinic details</div>
+            <div class="check-item"><span>◆</span> Valid date range</div>
+            <div class="check-item"><span>◆</span> Signature & stamp presence</div>
+          </div>
+          <div class="check-block">
+            <div class="check-block-title">AI Analysis</div>
+            <div class="check-item"><span>◆</span> Medical terminology accuracy</div>
+            <div class="check-item"><span>◆</span> Formatting consistency</div>
+            <div class="check-item"><span>◆</span> Alteration detection</div>
+            <div class="check-item"><span>◆</span> Risk score 0–100</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Processing -->
+      <div class="processing-wrap" id="processingWrap">
+        <div class="spinner-outer">
+          <div class="spinner-ring ring1"></div>
+          <div class="spinner-ring ring2"></div>
+          <div class="spinner-ring ring3"></div>
+        </div>
+        <div class="proc-title">Analyzing Certificate…</div>
+        <div class="proc-step" id="procStep">Initializing…</div>
+        <div class="proc-steps-list">
+          <div class="proc-step-row" id="ps1">
+            <div class="step-dot">1</div><span>Uploading document</span>
+          </div>
+          <div class="proc-step-row" id="ps2">
+            <div class="step-dot">2</div><span>Running OCR text extraction</span>
+          </div>
+          <div class="proc-step-row" id="ps3">
+            <div class="step-dot">3</div><span>Gemini AI visual analysis</span>
+          </div>
+          <div class="proc-step-row" id="ps4">
+            <div class="step-dot">4</div><span>Fraud rule validation</span>
+          </div>
+          <div class="proc-step-row" id="ps5">
+            <div class="step-dot">5</div><span>Generating risk report</span>
+          </div>
+        </div>
+        <div class="proc-footer">POWERED BY GEMINI AI + TESSERACT OCR</div>
+      </div>
+
+      <!-- Results -->
+      <div class="results-wrap" id="resultsWrap">
+
+        <!-- Hero -->
+        <div class="result-hero">
+          <div class="score-circle">
+            <svg class="score-svg" viewBox="0 0 100 100">
+              <circle class="score-track" cx="50" cy="50" r="42"/>
+              <circle class="score-fill" id="scoreFill" cx="50" cy="50" r="42"
+                      stroke-dasharray="264" stroke-dashoffset="264"/>
+            </svg>
+            <div class="score-text">
+              <span class="score-num" id="scoreNum">0</span>
+              <span class="score-pct">risk</span>
+            </div>
+          </div>
+          <div class="hero-divider"></div>
+          <div class="hero-info">
+            <div class="verdict-badge" id="verdictBadge">● LOW RISK</div>
+            <div class="hero-verdict" id="heroVerdict">Analysis Complete</div>
+            <div class="hero-student" id="heroStudent"></div>
+            <div class="risk-bar-wrap">
+              <div class="risk-bar-track"><div class="risk-bar-fill" id="riskBarFill"></div></div>
+            </div>
+            <div class="hero-stats" id="heroStats"></div>
+          </div>
+          <div class="hero-actions">
+            <button class="btn-export" onclick="exportReport()">⬇ Export Report</button>
+            <button class="btn-export" onclick="retryAnalysis()" style="border-color:rgba(99,102,241,0.4);color:var(--accent)">↻ Retry</button>
+            <button class="btn-new" onclick="resetToUpload()">+ New Analysis</button>
+          </div>
+        </div>
+
+        <!-- Fields & Observations -->
+        <div class="result-grid">
+          <div class="result-panel">
+            <div class="panel-title">Extracted Fields</div>
+            <div id="extractedFields"></div>
+          </div>
+          <div class="result-panel">
+            <div class="panel-title">AI Observations</div>
+            <div id="aiObservations"></div>
+          </div>
+        </div>
+
+        <!-- Rule Checks -->
+        <div class="rules-panel">
+          <div class="panel-title">Validation Rules</div>
+          <div class="rules-grid" id="rulesGrid"></div>
+        </div>
+
+        <!-- Raw OCR Text -->
+        <div class="raw-panel">
+          <div class="raw-header">
+            <div class="panel-title" style="margin:0">OCR Extracted Text</div>
+            <button class="raw-toggle" onclick="toggleRaw()">[ show ]</button>
+          </div>
+          <div class="raw-body" id="rawBody">
+            <pre class="raw-text" id="rawText"></pre>
+          </div>
+        </div>
+
+        <!-- Debug Console -->
+        <div class="debug-panel">
+          <div class="debug-header">
+            <div class="debug-title">▸ DEBUG CONSOLE</div>
+            <button class="debug-toggle" onclick="toggleDebug()">[ show ]</button>
+          </div>
+          <div class="debug-body" id="debugBody">
+            <pre class="debug-text" id="debugText"></pre>
+          </div>
+        </div>
+
+      </div><!-- /results-wrap -->
+
+      <!-- Audit Log -->
+      <div class="audit-panel" id="auditPanel">
+        <div class="audit-header" onclick="toggleAudit()">
+          <div class="audit-title">
+            Audit Log
+            <span class="audit-count" id="auditCount">0</span>
+          </div>
+          <div class="audit-toggle" id="auditToggleBtn">[ show ]</div>
+        </div>
+        <div class="audit-body" id="auditBody">
+          <div id="auditRows"></div>
+        </div>
+      </div>
+
+    </div><!-- /dashboard -->
+  </div><!-- /pageDashboard -->
+
+</div><!-- /app -->
+
+<script src="app.js"></script>
+</body>
+</html>
